@@ -46,16 +46,7 @@ Technology used: Python, Wi?, Raspberry, ESP32, Inkscape.
 - Evaluated performance, bandwidth, latency and capacity to handle concurrent users.
 - Scalability and flexibility analysis.
 Technology used: Linux, Python, IP Addressing, Open5gs and srsRAN.
-<details>
-  <summary>Project Guide</summary>
-
-  [Publication](https://github.com/JsCc-Electro/5G-SA-Network-Open5gs-srsRAN)
-
-</details>
-
-
-
-
+[Project Guide](https://github.com/JsCc-Electro/5G-SA-Network-Open5gs-srsRAN)
 
 ### Temperature control in liquids
 - Temperature control, monitoring and stabilization.
