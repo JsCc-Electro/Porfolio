@@ -70,9 +70,13 @@ Technology used: C, Arduino uno, LabView, Digital Dimmer.
 </details>
 
 
-- [Data Science YouTube](https://www.youtube.com/channel/UCa9gErQ9AE5jT2DZLjXBIdA)
-
 ## Positions of responsibility
+
+Amazon Kindle Editor (May 2023 - Present)
+- Designed and created attractive, professional book covers, enhancing the visibility and appeal of the final product.
+- Added essential missing content, ensuring the published material is complete and coherent.
+- Reorganized books by chapters and sections, optimizing the structure for a better reading experience.
+
 Geriatric Home Construction Supervisor, Rioblanco Tolima. (Dec 2023 - Feb 2024)
 - Coordinate the activities of workers, subcontractors and suppliers.
 - Keep detailed records of activities, progress reports, design changes.
@@ -81,4 +85,4 @@ Drone Operator Geriatric Home - Rioblanco Tolima. (Dec 2023 - Present)
 - Construction inspection, land mapping, event recording and project monitoring.
 - Process images to obtain area measurements and detect possible anomalies.
 
-- [Data Science Blog](https://medium.com/@shawhin)
+
