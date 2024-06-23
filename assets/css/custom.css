@@ -1,3 +1,63 @@
-.github-repo {
-    display: none;
+/* Archivo: assets/css/custom.css */
+
+/* Cambiar el color de fondo */
+body {
+    background-color: #f0f0f0; /* Color de fondo personalizado */
+}
+
+/* Cambiar el color del texto */
+body, p, a, h1, h2, h3, h4, h5, h6 {
+    color: #333333; /* Color del texto personalizado */
+}
+
+/* Cambiar el color del encabezado */
+header {
+    background-color: #003366; /* Color de fondo del encabezado */
+    color: #ffffff; /* Color del texto del encabezado */
+}
+
+/* Cambiar el color de los enlaces */
+a {
+    color: #0066cc; /* Color de los enlaces */
+}
+
+a:hover {
+    color: #004499; /* Color de los enlaces al pasar el mouse */
+}
+
+/* Cambiar el color de los botones */
+button, .button {
+    background-color: #0066cc; /* Color de fondo de los botones */
+    color: #ffffff; /* Color del texto de los botones */
+}
+
+button:hover, .button:hover {
+    background-color: #004499; /* Color de fondo de los botones al pasar el mouse */
+}
+
+/* Cambiar el color de los detalles */
+details {
+    background-color: #e0e0e0; /* Color de fondo de los detalles */
+    border: 1px solid #cccccc; /* Borde de los detalles */
+    color: #333333; /* Color del texto de los detalles */
+}
+
+summary {
+    color: #003366; /* Color del texto del resumen */
+    font-weight: bold;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #003366; /* Color de fondo del pie de página */
+    color: #ffffff; /* Color del texto del pie de página */
+}
+
+.wrapper {
+    background-color: #ffffff; /* Color de fondo del contenedor principal */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra del contenedor principal */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 960px;
+    border-radius: 10px; /* Esquinas redondeadas del contenedor principal */
 }
