@@ -60,10 +60,7 @@ header p {
     color: var(--header-text-color);
     font-size: 1.5em;
     margin-top: 10px;
-    background-color: var(--secondary-color); /* Añade un fondo */
-    padding: 5px 10px;
-    border-radius: 5px;
-    display: inline-block; /* Asegura que el fondo no se extienda a toda la línea */
+    display: inline; /* Cambia a display: inline para eliminar el rectángulo */
 }
 
 /* Estilo de la imagen del logo */
