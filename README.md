@@ -41,18 +41,24 @@ Technology used: Python, Wi?, Raspberry, ESP32, Inkscape.
 
 
 ### 5G SA Network with Open5gs and srsRAN
-[Publication](https://www.mdpi.com/1424-8220/22/11/4240)
+
 - Implementation of a 5G network using srsRAN, ZMQ and Open5GS.
 - Evaluated performance, bandwidth, latency and capacity to handle concurrent users.
 - Scalability and flexibility analysis.
 Technology used: Linux, Python, IP Addressing, Open5gs and srsRAN.
 
-![Bike Study](/assets/img/bike_study.jpeg)
+
 ### Temperature control in liquids
 - Temperature control, monitoring and stabilization.
 - Implementation of two Arduinos, as data acquisition card and PID control respectively.
 Technology used: C, Arduino uno, LabView, Digital Dimmer.
 
+<details>
+  <summary>Project Infographic</summary>
+
+  ![Project Infographic](https://github.com/JsCc-Electro/Porfolio/blob/main/assets/img/Calentador_Info.jpg)
+
+</details>
 
 
 - [Data Science YouTube](https://www.youtube.com/channel/UCa9gErQ9AE5jT2DZLjXBIdA)
@@ -61,6 +67,7 @@ Technology used: C, Arduino uno, LabView, Digital Dimmer.
 Geriatric Home Construction Supervisor, Rioblanco Tolima. (Dec 2023 - Feb 2024)
 - Coordinate the activities of workers, subcontractors and suppliers.
 - Keep detailed records of activities, progress reports, design changes.
+
 Drone Operator Geriatric Home - Rioblanco Tolima. (Dec 2023 - Present)
 - Construction inspection, land mapping, event recording and project monitoring.
 - Process images to obtain area measurements and detect possible anomalies.
