@@ -34,9 +34,7 @@ Technology used: Python, Wi?, Raspberry, ESP32, Inkscape.
 
 <details>
   <summary>Project Infographic</summary>
-  
-![Project Infographic](/assets/img/info.jpg)
-
+  <img src="assets/img/info.jpg" alt="Project Infographic">
 </details>
 
 
