@@ -55,7 +55,7 @@ Technology used: C, Arduino uno, LabView, Digital Dimmer.
 
 <details>
   <summary>Project Infographic</summary>
-  <img src="assets/img/Calentador_info.jpg" alt="Project Infographic">
+  <img src="assets/img/Calentador_Info.jpg" alt="Project Infographic">
 <br><br>
 </details>
 
