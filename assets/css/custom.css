@@ -1,63 +1,138 @@
 /* Archivo: assets/css/custom.css */
 
-/* Cambiar el color de fondo */
+/* Colores principales */
+:root {
+    --primary-color: #003366; /* Azul oscuro */
+    --secondary-color: #0066cc; /* Azul claro */
+    --background-color: #f4f4f4; /* Fondo claro */
+    --text-color: #333333; /* Texto oscuro */
+    --link-color: #0066cc; /* Enlaces */
+    --link-hover-color: #004499; /* Enlaces al pasar el mouse */
+    --header-background-color: #003366; /* Fondo del encabezado */
+    --header-text-color: #ffffff; /* Texto del encabezado */
+    --footer-background-color: #003366; /* Fondo del pie de página */
+    --footer-text-color: #ffffff; /* Texto del pie de página */
+    --button-background-color: #0066cc; /* Fondo de los botones */
+    --button-hover-background-color: #004499; /* Fondo de los botones al pasar el mouse */
+    --details-background-color: #e0e0e0; /* Fondo de los detalles */
+    --details-border-color: #cccccc; /* Borde de los detalles */
+}
+
+/* Cambiar el color de fondo del cuerpo */
 body {
-    background-color: #f0f0f0; /* Color de fondo personalizado */
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
 }
 
-/* Cambiar el color del texto */
-body, p, a, h1, h2, h3, h4, h5, h6 {
-    color: #333333; /* Color del texto personalizado */
+/* Estilo del contenedor principal */
+.wrapper {
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 960px;
+    border-radius: 10px;
 }
 
-/* Cambiar el color del encabezado */
+/* Estilo del encabezado */
 header {
-    background-color: #003366; /* Color de fondo del encabezado */
-    color: #ffffff; /* Color del texto del encabezado */
+    background-color: var(--header-background-color);
+    color: var(--header-text-color);
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
 }
 
-/* Cambiar el color de los enlaces */
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+/* Estilo de la imagen del logo */
+header img {
+    border-radius: 50%;
+    max-width: 150px;
+    margin: 10px auto;
+    display: block;
+}
+
+/* Estilo de los enlaces */
 a {
-    color: #0066cc; /* Color de los enlaces */
+    color: var(--link-color);
+    text-decoration: none;
 }
 
 a:hover {
-    color: #004499; /* Color de los enlaces al pasar el mouse */
+    color: var(--link-hover-color);
 }
 
-/* Cambiar el color de los botones */
+/* Estilo de los botones */
 button, .button {
-    background-color: #0066cc; /* Color de fondo de los botones */
-    color: #ffffff; /* Color del texto de los botones */
+    background-color: var(--button-background-color);
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
 }
 
 button:hover, .button:hover {
-    background-color: #004499; /* Color de fondo de los botones al pasar el mouse */
+    background-color: var(--button-hover-background-color);
 }
 
-/* Cambiar el color de los detalles */
+/* Estilo de los detalles */
 details {
-    background-color: #e0e0e0; /* Color de fondo de los detalles */
-    border: 1px solid #cccccc; /* Borde de los detalles */
-    color: #333333; /* Color del texto de los detalles */
+    background-color: var(--details-background-color);
+    border: 1px solid var(--details-border-color);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
 }
 
 summary {
-    color: #003366; /* Color del texto del resumen */
+    color: var(--primary-color);
     font-weight: bold;
     cursor: pointer;
 }
 
+/* Estilo del pie de página */
 footer {
-    background-color: #003366; /* Color de fondo del pie de página */
-    color: #ffffff; /* Color del texto del pie de página */
+    background-color: var(--footer-background-color);
+    color: var(--footer-text-color);
+    text-align: center;
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
 }
 
-.wrapper {
-    background-color: #ffffff; /* Color de fondo del contenedor principal */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra del contenedor principal */
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 960px;
-    border-radius: 10px; /* Esquinas redondeadas del contenedor principal */
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: var(--footer-text-color);
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo de los párrafos y texto */
+p {
+    margin-bottom: 20px;
+}
+
+/* Estilo de las listas */
+ul, ol {
+    margin: 20px 0;
+    padding-left: 40px;
+}
+
+li {
+    margin-bottom: 10px;
 }
