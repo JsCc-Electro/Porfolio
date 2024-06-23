@@ -35,6 +35,7 @@ Technology used: Python, Wi?, Raspberry, ESP32, Inkscape.
 <details>
   <summary>Project Infographic</summary>
   <img src="assets/img/info.jpg" alt="Project Infographic">
+  <br><br>
 </details>
 
 
@@ -44,7 +45,8 @@ Technology used: Python, Wi?, Raspberry, ESP32, Inkscape.
 - Evaluated performance, bandwidth, latency and capacity to handle concurrent users.
 - Scalability and flexibility analysis.
 Technology used: Linux, Python, IP Addressing, Open5gs and srsRAN.
-[Project Guide](https://github.com/JsCc-Electro/5G-SA-Network-Open5gs-srsRAN)
+
+- [Project Guide](https://github.com/JsCc-Electro/5G-SA-Network-Open5gs-srsRAN)
 
 ### Temperature control in liquids
 - Temperature control, monitoring and stabilization.
@@ -53,9 +55,8 @@ Technology used: C, Arduino uno, LabView, Digital Dimmer.
 
 <details>
   <summary>Project Infographic</summary>
-
-  ![Project Infographic](https://github.com/JsCc-Electro/Porfolio/blob/main/assets/img/Calentador_Info.jpg)
-
+  <img src="assets/img/Calentador_info.jpg" alt="Project Infographic">
+<br><br>
 </details>
 
 
