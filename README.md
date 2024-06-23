@@ -34,8 +34,8 @@ Technology used: Python, Wi?, Raspberry, ESP32, Inkscape.
 
 <details>
   <summary>Project Infographic</summary>
-
-  ![Project Infographic](https://github.com/JsCc-Electro/Porfolio/raw/main/assets/img/info.jpg)
+  
+![Project Infographic](/assets/img/info.jpg)
 
 </details>
 
