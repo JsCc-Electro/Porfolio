@@ -27,13 +27,12 @@ Electronics Engineer with experience in programming and data analysis, seeking t
 - Col-Equipments: Design of maintenance plan for laboratory equipment under RCM parameters.
 ## Projects
 ### CNC machine
-[Publication](https://www.mdpi.com/1424-8220/22/8/3048)
 - Drawing images or circuits using Gerber language.
 - Design and construction of a CNC machine controlled from a Raspberry pi 3 with raspbian.
 - Design of an interface in python to control the movements of the machine.
 Technology used: Python, Wi?, Raspberry, ESP32, Inkscape.
 
-![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
+![Project Infographic](/assets/img/info.jpeg)
 
 ### 5G SA Network with Open5gs and srsRAN
 [Publication](https://www.mdpi.com/1424-8220/22/11/4240)
