@@ -3,3 +3,6 @@ logo: /assets/img/head_shot_circle.jpg
 description: Electronic Engineer
 #show_downloads: true
 theme: jekyll-theme-minimal
+github:
+  is_project_page: false
+
