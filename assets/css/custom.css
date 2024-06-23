@@ -53,6 +53,16 @@ header p {
     margin: 5px 0;
 }
 
+/* Estilo del título "Data Engineer" */
+.header-title {
+    background-color: var(--secondary-color);
+    color: var(--header-text-color);
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
 /* Estilo de la imagen del logo */
 header img {
     border-radius: 50%;
