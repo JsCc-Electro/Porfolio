@@ -56,11 +56,12 @@ header p {
 }
 
 /* Estilo del título "Data Engineer" */
-.header-title {
-    color: var(--header-text-color);
-    font-size: 1.5em;
-    margin-top: 10px;
-    display: inline; /* Cambia a display: inline para eliminar el rectángulo */
+h2 {
+    background-color: transparent; /* Eliminar el fondo blanco */
+    color: var(--primary-color); /* Color del texto */
+    padding: 0; /* Eliminar padding */
+    margin: 0; /* Eliminar margen */
+    border-radius: 0; /* Eliminar bordes redondeados */
 }
 
 /* Estilo de la imagen del logo */
