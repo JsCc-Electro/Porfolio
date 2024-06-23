@@ -40,13 +40,15 @@ body {
 header {
     background-color: var(--header-background-color);
     color: var(--header-text-color);
-    padding: 10px;
+    padding: 20px;
     text-align: center;
     border-radius: 10px 10px 0 0;
 }
 
 header h1 {
     margin: 0;
+    font-size: 2.5em;
+    color: var(--header-text-color);
 }
 
 header p {
@@ -55,12 +57,13 @@ header p {
 
 /* Estilo del título "Data Engineer" */
 .header-title {
-    background-color: var(--secondary-color);
     color: var(--header-text-color);
-    padding: 10px;
+    font-size: 1.5em;
+    margin-top: 10px;
+    background-color: var(--secondary-color); /* Añade un fondo */
+    padding: 5px 10px;
     border-radius: 5px;
-    display: inline-block;
-    margin-top: 20px;
+    display: inline-block; /* Asegura que el fondo no se extienda a toda la línea */
 }
 
 /* Estilo de la imagen del logo */
