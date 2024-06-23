@@ -49,7 +49,7 @@ Technology used: Linux, Python, IP Addressing, Open5gs and srsRAN.
 <details>
   <summary>Project Guide</summary>
 
-  [5G-srsRAN-Open5gs](https://github.com/JsCc-Electro/5G-SA-Network-Open5gs-srsRAN)
+  [Publication](https://github.com/JsCc-Electro/5G-SA-Network-Open5gs-srsRAN)
 
 </details>
 
