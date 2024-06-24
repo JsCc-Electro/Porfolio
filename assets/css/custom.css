@@ -60,7 +60,7 @@ h2 {
     border-radius: 0; /* Eliminar bordes redondeados */
 }
 
-h3 {
+h3, h4 {
     color: var(--primary-color); /* Color del texto */
     padding: 0; /* Eliminar padding */
     border-radius: 0; /* Eliminar bordes redondeados */
