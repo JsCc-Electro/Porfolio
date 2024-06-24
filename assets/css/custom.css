@@ -152,4 +152,7 @@ li {
 /* Asegurarse de que no haya fondo en elementos h2 */
 h2 {
     background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    margin-top: 0 !important;
 }
