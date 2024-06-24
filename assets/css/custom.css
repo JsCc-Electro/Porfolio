@@ -48,10 +48,22 @@ header p {
     margin: 5px 0;
 }
 
-h2, h3 {
-    margin: 0;
-    font-size: 2.5em;
-    color: var(--header-text-color);
+h2, h3, p, ul, ol {
+    text-align: left; /* Alinear a la izquierda */
+    margin-top: 30px; /* Añadir margen superior */
+}
+
+/* Estilo de los encabezados */
+h2 {
+    color: var(--primary-color); /* Color del texto */
+    padding: 0; /* Eliminar padding */
+    border-radius: 0; /* Eliminar bordes redondeados */
+}
+
+h3 {
+    color: var(--primary-color); /* Color del texto */
+    padding: 0; /* Eliminar padding */
+    border-radius: 0; /* Eliminar bordes redondeados */
 }
 /* Estilo de la imagen del logo */
 header img {
