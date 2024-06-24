@@ -53,6 +53,7 @@ h2, h3 {
     color: var(--primary-color); /* Color del texto */
     padding: 0; /* Eliminar padding */
     border-radius: 0; /* Eliminar bordes redondeados */
+    text-align: left; /* Alinear a la izquierda */
 }
 /* Estilo de la imagen del logo */
 header img {
