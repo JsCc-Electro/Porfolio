@@ -48,24 +48,12 @@ header p {
     margin: 5px 0;
 }
 
-/* Añadir margen superior a los encabezados h2 */
-h2 {
+h2, h3 {
     margin-top: 30px; /* Añadir margen superior */
     color: var(--primary-color); /* Color del texto */
     padding: 0; /* Eliminar padding */
     border-radius: 0; /* Eliminar bordes redondeados */
 }
-
-/* Estilo del título "Data Engineer" */
-h2 {
-    background-color: transparent !important; /* Asegurarse de que no haya fondo */
-    color: var(--primary-color); /* Color del texto */
-    padding: 0; /* Eliminar padding */
-    margin: 0; /* Eliminar margen */
-    border-radius: 0; /* Eliminar bordes redondeados */
-    display: inline; /* Asegurarse de que el display sea inline */
-}
-
 /* Estilo de la imagen del logo */
 header img {
     border-radius: 50%;
