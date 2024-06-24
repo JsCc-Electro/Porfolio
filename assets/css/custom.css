@@ -48,7 +48,7 @@ header p {
     margin: 5px 0;
 }
 
-h2, h3, p, ul, ol {
+h2, h3, h4, p, ul, ol {
     text-align: left; /* Alinear a la izquierda */
     margin-top: 30px; /* Añadir margen superior */
 }
