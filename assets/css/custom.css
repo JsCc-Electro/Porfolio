@@ -27,14 +27,7 @@ body {
 }
 
 /* Estilo del contenedor principal */
-.wrapper {
-    background-color: #ffffff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    margin: 20px auto;
-    max-width: 960px;
-    border-radius: 10px;
-}
+
 
 /* Estilo del encabezado */
 header {
