@@ -28,7 +28,7 @@ Electronics Engineer with experience in programming and data analysis, seeking t
 
 ### Projects
 
-** CNC machine
+**CNC machine
 - Drawing images or circuits using Gerber language.
 - Design and construction of a CNC machine controlled from a Raspberry pi 3 with raspbian.
 - Design of an interface in python to control the movements of the machine.
@@ -41,7 +41,7 @@ Technology used: Python, Wi?, Raspberry, ESP32, Inkscape.
 </details>
 
 
-** 5G SA Network with Open5gs and srsRAN
+**5G SA Network with Open5gs and srsRAN
 
 - Implementation of a 5G network using srsRAN, ZMQ and Open5GS.
 - Evaluated performance, bandwidth, latency and capacity to handle concurrent users.
@@ -50,7 +50,7 @@ Technology used: Linux, Python, IP Addressing, Open5gs and srsRAN.
 
 - [Project Guide](https://github.com/JsCc-Electro/5G-SA-Network-Open5gs-srsRAN)
 
-** Temperature control in liquids
+**Temperature control in liquids
 - Temperature control, monitoring and stabilization.
 - Implementation of two Arduinos, as data acquisition card and PID control respectively.
 Technology used: C, Arduino uno, LabView, Digital Dimmer.
@@ -64,12 +64,12 @@ Technology used: C, Arduino uno, LabView, Digital Dimmer.
 
 #### Positions of responsibility
 
-** Amazon Kindle Editor (May 2023 - Present)
+**Amazon Kindle Editor (May 2023 - Present)
 - Designed and created attractive, professional book covers, enhancing the visibility and appeal of the final product.
 - Added essential missing content, ensuring the published material is complete and coherent.
 - Reorganized books by chapters and sections, optimizing the structure for a better reading experience.
 
-** Geriatric Home Construction Supervisor, Rioblanco Tolima. (Dec 2023 - Feb 2024)
+**Geriatric Home Construction Supervisor, Rioblanco Tolima. (Dec 2023 - Feb 2024)
 - Coordinate the activities of workers, subcontractors and suppliers.
 - Keep detailed records of activities, progress reports, design changes.
 
