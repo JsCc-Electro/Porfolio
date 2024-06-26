@@ -29,7 +29,17 @@ body {
 /* Estilo del contenedor principal */
 
 /* Estilo del encabezado */
-
+/* Estilo del encabezado */
+header {
+    background-color: var(--header-background-color);
+    color: var(--header-text-color);
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    max-width: 600px; /* Ajusta este valor al ancho deseado */
+    height: auto; /* Permite que crezca hacia abajo */
+    margin: 0 auto; /* Centra el header horizontalmente */
+}
 
 
 header p {
