@@ -52,5 +52,27 @@
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+
+    <footer>
+    <div class="footer-content">
+    <div class="footer-info">
+      <img src="{{ '/assets/img/head_shot_circle.jpg' | relative_url }}" alt="Joshua Cardenas">
+      <p>Electronic Engineer - +57 3112562317</p>
+    </div>
+    <div class="footer-contact">
+      <p>Contact us:</p>
+      <ul>
+        {% for contact in site.contacts %}
+          {% if contact.type == 'email' %}
+            <li><a href="mailto:{{ contact.value }}">{{ contact.value }}</a></li>
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  </footer>
+
+
+    
   </body>
 </html>
