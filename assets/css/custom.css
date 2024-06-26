@@ -32,9 +32,10 @@ body {
 header {
     background-color: var(--header-background-color);
     color: var(--header-text-color);
-    padding: 200px;
+    padding: 100px;
     text-align: center;
     border-radius: 10px 10px 0 0;
+    max-width: 20px
 }
 
 
