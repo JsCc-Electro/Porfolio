@@ -35,7 +35,7 @@ header {
     color: var(--header-text-color);
     padding: 20px;
     text-align: center;
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px;
     max-width: 600px; /* Ajusta este valor al ancho deseado */
     height: auto; /* Permite que crezca hacia abajo */
     margin: 0 auto; /* Centra el header horizontalmente */
@@ -81,7 +81,7 @@ header p {
     align-items: center;
     background-color: #25d366;
     color: white;
-    padding: 2.5px 3px;
+    padding: 1px 2px;
     border-radius: 5px;
     text-decoration: none;
     margin-top: 10px;
