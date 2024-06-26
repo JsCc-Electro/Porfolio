@@ -16,17 +16,25 @@
   <body>
     <div class="wrapper">
       <header>
-        
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
 
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
-
-        <!-- Comentado para eliminar el enlace a GitHub -->
-        {% if site.github.is_project_page %}
-        <!-- <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p> -->
-        {% endif %}
+        <div class="header-content">
+          <img src="{{ '/assets/img/head_shot_circle.jpg' | relative_url }}" alt="Joshua Cardenas">
+          <p>Joshua Cardenas</p>
+          <p>Electronic Engineer - +57 3112562317</p>
+          <div class="header-contact">
+            <p>Contact us:</p>
+            <ul>
+              {% for contact in site.contacts %}
+                {% if contact.type == 'email' %}
+                  <li><a href="mailto:{{ contact.value }}">{{ contact.value }}</a></li>
+                {% endif %}
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
 
         {% if site.github.is_user_page %}
         <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
@@ -43,29 +51,6 @@
       <section>
         {{ content }}
       </section>
-      <footer>
-        <div class="footer-content">
-          <div class="footer-info">
-            <img src="{{ '/assets/img/head_shot_circle.jpg' | relative_url }}" alt="Joshua Cardenas">
-            <p>Joshua Cardenas</p>
-            <p>Electronic Engineer - +57 3112562317</p>
-          </div>
-          <div class="footer-contact">
-            <p>Contact us:</p>
-            <ul>
-              {% for contact in site.contacts %}
-                {% if contact.type == 'email' %}
-                  <li><a href="mailto:{{ contact.value }}">{{ contact.value }}</a></li>
-                {% endif %}
-              {% endfor %}
-            </ul>
-          </div>
-        </div>
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   </body>
