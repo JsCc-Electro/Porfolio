@@ -28,7 +28,6 @@ body {
 
 /* Estilo del contenedor principal */
 
-
 /* Estilo del encabezado */
 header {
     background-color: var(--header-background-color);
@@ -118,19 +117,39 @@ footer {
     background-color: var(--footer-background-color);
     color: var(--footer-text-color);
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     border-radius: 0 0 10px 10px;
 }
 
-footer p {
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-info img {
+    width: 100px; /* Ajusta el tamaño según sea necesario */
+    border-radius: 50%; /* Para que la imagen sea circular */
+}
+
+.footer-info p {
     margin: 5px 0;
 }
 
-footer a {
+.footer-contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-contact ul li {
+    margin-bottom: 5px;
+}
+
+.footer-contact a {
     color: var(--footer-text-color);
 }
 
-footer a:hover {
+.footer-contact a:hover {
     text-decoration: underline;
 }
 
