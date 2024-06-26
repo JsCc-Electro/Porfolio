@@ -37,11 +37,7 @@ header {
     border-radius: 10px 10px 0 0;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 2.5em;
-    color: var(--header-text-color);
-}
+
 
 header p {
     margin: 5px 0;
