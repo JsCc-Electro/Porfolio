@@ -12,7 +12,7 @@ Electronics Engineer with experience in programming and data analysis, seeking t
 - Soft Skills: Problem solving, Self-learning, Presentation, Adaptability, Creativity, Management of time, Leadership.
 
 ## Education
-- Electronic Egineer | The University of Quindío (_December 2024_)								       		
+- Electronic Egineer | The University of Quindío (_September 2024_)								       		
 
 ## Work Experience
 **Teaching Assistant, organic materials laboratory in the interdisciplinary science laboratory (_Feb - Jun 2023_)**
