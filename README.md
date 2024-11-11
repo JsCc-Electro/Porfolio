@@ -62,6 +62,23 @@ Technology used: C, Arduino uno, LabView, Digital Dimmer.
 
 ## Positions of responsibility
 
+**Legal Representative, Electro Tech Integral (Nov 8 - Present)** 
+
+- Responsible for the legal representation of the company, managing contract execution, strategic decision-making, and ensuring regulatory compliance to support company growth and operations.
+
+
+**Project Manager, San Miguel Residential Development, Rioblanco Tolima (Sep 20 - Present)**
+
+- Led comprehensive project planning and resource management to ensure efficient, on-schedule development, overseeing contracts, budgets, and administrative decisions essential for successful lot sales and community establishment.
+
+- Developed and implemented targeted marketing campaigns to promote the development, coordinating with stakeholders to drive visibility and engagement among potential buyers.
+
+**Community Manager, Palabras que sanan Padre Andres (Jul 2024 - Present)**
+- Responsible for the comprehensive management of social networks, including content creation, event planning and execution, coordination of financial flows from social platforms to corporate accounts, and administration of advertising campaigns.
+
+**Technology and Digital Security Coordinator, Sole Notary, Rioblanco, Tolima (Jun 2024 - Present)**
+- Comprehensive management of technological systems, including installation and maintenance of equipment (printers, cameras, software), and consulting on strategic decisions.
+
 Amazon Kindle Editor (May 2023 - Present)
 - Designed and created attractive, professional book covers, enhancing the visibility and appeal of the final product.
 - Added essential missing content, ensuring the published material is complete and coherent.
