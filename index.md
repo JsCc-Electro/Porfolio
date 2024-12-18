@@ -63,11 +63,13 @@ Technology used: C, Arduino uno, LabView, Digital Dimmer.
 
 
 #### Positions of responsibility
+<details>  
+  <summary> Legal Representative, Electro Tech Integral (Nov 8 - Present)</summary>
 
-**Legal Representative, Electro Tech Integral (Nov 8 - Present)** 
 
 - Responsible for the legal representation of the company, managing contract execution, strategic decision-making, and ensuring regulatory compliance to support company growth and operations.
 
+</details>
 
 **Project Manager, San Miguel Residential Development, Rioblanco Tolima (Sep 20 - Present)**
 
