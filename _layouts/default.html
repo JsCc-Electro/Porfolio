@@ -51,7 +51,7 @@
         </ul>
         {% endif %}
       </header>
-   <main>
+ <main>
       {% assign sections = content | split: '## ' %}
       {% for section in sections %}
         {% if section != "" %}
@@ -67,26 +67,27 @@
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     <script>
-        document.addEventListener('DOMContentLoaded', function () {
+      document.addEventListener('DOMContentLoaded', function () {
           const sections = document.querySelectorAll('.portfolio-section');
-          const revealThreshold = 0.2; // 20% del viewport desde el pie
-
-      
-          sections.forEach(section => {
-            const observer = new IntersectionObserver(entries => {
-              entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                  entry.target.classList.add('show');
-                  observer.unobserve(entry.target)
-                }
-              });
-            },
-            {
-                threshold: 0.2, // 20% del viewport desde el pie
-              });
+          const revealThreshold = 0.2; // 20% del viewport
+          const windowHeight = window.innerHeight;
+          
+            sections.forEach(section => {
+                const observer = new IntersectionObserver(entries => {
+                    entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                            entry.target.classList.add('revealed');
+                            observer.unobserve(entry.target);
+                        } else {
+                            entry.target.classList.remove('revealed')
+                        }
+                    });
+                }, {
+                  threshold: revealThreshold, // Se activa cuando entra el 20%
+                });
                 observer.observe(section);
+            });
           });
-        });
       </script>
   </body>
 </html>
