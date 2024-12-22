@@ -28,7 +28,7 @@ Electronics Engineer with experience in programming and data analysis, seeking t
 - Violeta Project: Implementation of an alarm device in cases of gender violence.
 - Col-Equipments: Design of maintenance plan for laboratory equipment under RCM parameters.
 
-### Projects
+## Projects
 
 **CNC machine**
 - Drawing images or circuits using Gerber language.
@@ -64,7 +64,7 @@ Technology used: C, Arduino uno, LabView, Digital Dimmer.
 </details>
 
 
-#### Positions of responsibility
+## Positions of responsibility
 
 <details>  
   <summary>Legal Representative, Electro Tech Integral (Nov 8 - Present)</summary>
