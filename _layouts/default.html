@@ -51,7 +51,7 @@
         </ul>
         {% endif %}
       </header>
-     <main>
+   <main>
       {% assign sections = content | split: '## ' %}
       {% for section in sections %}
         {% if section != "" %}
@@ -64,24 +64,29 @@
         {% endif %}
       {% endfor %}
     </main>
-  </div>
-  <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-  <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      const sections = document.querySelectorAll('.portfolio-section');
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+          const sections = document.querySelectorAll('.portfolio-section');
+          const revealThreshold = 0.2; // 20% del viewport desde el pie
 
-      sections.forEach(section => {
-          const observer = new IntersectionObserver(entries => {
-            entries.forEach(entry => {
-              if (entry.isIntersecting) {
-                entry.target.classList.add('show');
-                observer.unobserve(entry.target); // Unobservar después de la animación
-              }
-            });
+      
+          sections.forEach(section => {
+            const observer = new IntersectionObserver(entries => {
+              entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                  entry.target.classList.add('show');
+                  observer.unobserve(entry.target)
+                }
+              });
+            },
+            {
+                threshold: 0.2, // 20% del viewport desde el pie
+              });
+                observer.observe(section);
           });
-        observer.observe(section);
-      });
-    });
-  </script>
+        });
+      </script>
   </body>
 </html>
