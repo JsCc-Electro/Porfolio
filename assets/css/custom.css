@@ -199,17 +199,11 @@ h2 {
     transform: translateY(20px); /* Opcional: Desplazar un poco hacia abajo */
 }
 
-.portfolio-section::before {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%; /*  porcentaje de opacidad en el footer */
-    background: linear-gradient(to top, rgba(255, 255, 255, 0.8), transparent); /* Degradado inicial */
-    pointer-events: none; /* Permite interacciones con el contenido */
-    opacity: 1;
-    transition: opacity 0.3s ease;
+.portfolio-section {
+  position: relative; /* Para la animación */
+  transition: opacity 0.3s ease, transform 0.3s ease;
+    opacity: 0;
+    transform: translateY(20px); /* Opcional: Desplazar un poco hacia abajo */
 }
 
 .portfolio-section.revealed {
@@ -217,6 +211,13 @@ h2 {
     transform: translateY(0);
 }
 
-.portfolio-section.revealed::before {
-    opacity: 0; /* Desaparece el degradado */
+.viewport-overlay {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20vh; /* 20% del viewport */
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.9), transparent); /* Degradado inicial */
+    pointer-events: none; /* Permite interacciones con el contenido */
+    z-index: 10; /* Asegura que esté encima del contenido */
 }
