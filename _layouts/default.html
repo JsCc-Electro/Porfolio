@@ -63,31 +63,43 @@
           </section>
         {% endif %}
       {% endfor %}
+     <main>
+      {% assign sections = content | split: '## ' %}
+      {% for section in sections %}
+        {% if section != "" %}
+          <section class="portfolio-section">
+            <h2>{{ section | split: '\n' | first }}</h2>
+            <div>
+              {{ section | split: '\n' | slice: 1, section.size | join: '\n' | markdownify }}
+            </div>
+          </section>
+        {% endif %}
+      {% endfor %}
     </main>
-    </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
-    <script>
-      document.addEventListener('DOMContentLoaded', function () {
-          const sections = document.querySelectorAll('.portfolio-section');
-          const revealThreshold = 0.2; // 20% del viewport
-          const windowHeight = window.innerHeight;
-          
-            sections.forEach(section => {
-                const observer = new IntersectionObserver(entries => {
-                    entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                            entry.target.classList.add('revealed');
-                            observer.unobserve(entry.target);
-                        } else {
-                            entry.target.classList.remove('revealed')
-                        }
-                    });
-                }, {
-                  threshold: revealThreshold, // Se activa cuando entra el 20%
-                });
-                observer.observe(section);
-            });
+  </div>
+  <div class="viewport-overlay"></div>
+  <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const sections = document.querySelectorAll('.portfolio-section');
+      const revealThreshold = 0.2; // 20% del viewport
+
+      sections.forEach(section => {
+          const observer = new IntersectionObserver(entries => {
+              entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('revealed');
+                    observer.unobserve(entry.target);
+                } else {
+                    entry.target.classList.remove('revealed');
+                }
+              });
+          }, {
+                threshold: revealThreshold, // Se activa cuando entra el 20%
           });
-      </script>
+          observer.observe(section);
+        });
+    });
+  </script>
   </body>
 </html>
