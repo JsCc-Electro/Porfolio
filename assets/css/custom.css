@@ -194,7 +194,7 @@ h2 {
 /* Animaciones al hacer scroll */
 .portfolio-section {
     opacity: 0;
-    transform: translateY(20px);
+    transform: translateY(50px);
     transition: opacity 0.5s ease, transform 0.5s ease;
  }
 .portfolio-section.show {
