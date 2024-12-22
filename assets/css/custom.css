@@ -34,19 +34,16 @@ body {
 header {
     background-color: var(--header-background-color);
     color: var(--header-text-color);
-    padding: 20px;
+    padding: 1rem; /* Menos padding */
     text-align: center;
     border-radius: 10px;
-    max-width: 600px; /* Ajusta este valor al ancho deseado */
-    height: auto; /* Permite que crezca hacia abajo */
-    margin: 0 auto; /* Centra el header horizontalmente */
+    max-width: 600px;
+    margin: 0 auto 2rem; /* Añadido un margen inferior */
 }
 
-
-header p {
-    margin: 5px 0;
+header p{
+    margin: 0.3rem 0;
 }
-
 
 .header-content {
     display: flex;
@@ -55,25 +52,25 @@ header p {
 }
 
 .header-content img {
-    width: 100px; /* Ajusta el tamaño según sea necesario */
+    width: 120px; /* Ajusta el tamaño según sea necesario */
     border-radius: 50%; /* Para que la imagen sea circular */
+    margin-bottom: 1rem; /* Añadido margen inferior */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sutil sombra */
+    border: 3px solid white; /* Borde blanco */
 }
 
-.header-contact ul {
-    list-style: none;
-    padding: 0;
+.header-contact {
+  margin-top: 0.75em; /* Espacio para separar contacto */
+    margin-bottom: 0.75em;
 }
 
-.header-contact ul li {
-    margin-bottom: 5px;
+
+ .header-contact a {
+  color: var(--header-text-color); /* Correos en color blanco */
 }
 
-.header-contact a {
-    color: var(--header-text-color); /* Correos en color blanco */
-}
-
-.header-contact a:hover {
-    text-decoration: underline;
+ .header-contact a:hover {
+  text-decoration: underline;
 }
 
 /* Estilo del botón de WhatsApp */
@@ -103,7 +100,7 @@ header p {
 
 h2, h3, h4, p, ul, ol {
     text-align: left; /* Alinear a la izquierda */
-    margin-top: 30px; /* Añadir margen superior */
+    margin-top: 1.5rem; /* Ajusta el espacio superior */
 }
 
 /* Estilo de los encabezados */
@@ -111,12 +108,27 @@ h2 {
     color: var(--primary-color); /* Color del texto */
     padding: 0; /* Eliminar padding */
     border-radius: 0; /* Eliminar bordes redondeados */
+    font-size: 2.2rem; /* Ajusta el tamaño */
+    font-weight: 700;
+    margin-bottom: 1.2rem;
 }
 
-h3, h4 {
+h3 {
     color: var(--primary-color); /* Color del texto */
     padding: 0; /* Eliminar padding */
     border-radius: 0; /* Eliminar bordes redondeados */
+        font-size: 1.7rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+}
+
+h4 {
+    color: var(--primary-color); /* Color del texto */
+    padding: 0; /* Eliminar padding */
+    border-radius: 0; /* Eliminar bordes redondeados */
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin-bottom: 0.8rem;
 }
 
 /* Estilo de la imagen del logo */
@@ -131,11 +143,14 @@ header img {
 a {
     color: var(--link-color);
     text-decoration: none;
+        transition: color 0.2s ease; /* Transición para el color */
 }
 
 a:hover {
     color: var(--link-hover-color);
+    text-decoration: underline; /* Subrayar al pasar el mouse */
 }
+
 
 /* Estilo de los botones */
 button, .button {
@@ -145,11 +160,13 @@ button, .button {
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
+      transition: background-color 0.3s ease, transform 0.1s ease;
 }
 
 button:hover, .button:hover {
     background-color: var(--button-hover-background-color);
+    transform: translateY(-2px); /* Sutil efecto al pasar el mouse */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sutil sombra al pasar el mouse */
 }
 
 /* Estilo de los detalles */
@@ -171,25 +188,28 @@ summary {
 
 /* Estilo de los párrafos y texto */
 p {
-    margin-bottom: 20px;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
 }
 
 /* Estilo de las listas */
 ul, ol {
-    margin: 20px 0;
-    padding-left: 40px;
+  margin-left: 2rem;
+    margin-bottom: 1rem;
+  padding-left: 1rem;
 }
 
 li {
-    margin-bottom: 10px;
+  margin-bottom: 0.5rem;
 }
 
 /* Asegurarse de que no haya fondo en elementos h2 */
-h2 {
+ h2 {
     background-color: transparent !important;
     border: none !important;
     box-shadow: none !important;
-    margin-top: 0 !important;
+    margin-top: 0 !important; /* Quita el margen superior */
 }
 
 .portfolio-section {
@@ -199,9 +219,23 @@ h2 {
     transform: translateY(20px); /* Opcional: Desplazar un poco hacia abajo */
 }
 
+    /* padding para el texto dentro de las secciones */
+  main > section > div {
+    padding: 0 1em;
+  }
 .portfolio-section.revealed {
     opacity: 1;
     transform: translateY(0);
+}
+
+main > section {
+    margin-bottom: 3.5rem;
+    padding: 1.5rem;
+    background-color: white; /* Añade un fondo blanco a las secciones */
+    border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sutil sombra */
+      position: relative; /* Para posicionamiento relativo */
+    overflow: hidden; /* Asegura que las secciones se vean correctamente */
 }
 
 .viewport-overlay {
@@ -209,8 +243,8 @@ h2 {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 20vh; /* 20% del viewport */
-    background: linear-gradient(to top, rgba(255, 255, 255, 0.9), transparent); /* Degradado inicial */
-    pointer-events: none; /* Permite interacciones con el contenido */
-    z-index: 10; /* Asegura que esté encima del contenido */
+    height: 20vh;
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.9), transparent);
+    pointer-events: none;
+    z-index: 10;
 }
