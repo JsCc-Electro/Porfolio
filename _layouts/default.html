@@ -1,110 +1,98 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    {% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" href="{{ "/assets/css/custom.css?v=" | append: site.github.build_revision | relative_url }}">
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
-    {% include head-custom.html %}
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %}
+  {% seo %}
+  <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+  <link rel="stylesheet" href="{{ "/assets/css/custom.css?v=" | append: site.github.build_revision | relative_url }}">
+  <!--[if lt IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <![endif]-->
+  {% include head-custom.html %}
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      {% if site.logo %}
+        <img src="{{site.logo | relative_url}}" alt="Logo" />
+      {% endif %}
 
-        <div class="header-content">
-          <img src="{{ '/assets/img/head_shot_circle.jpg' | relative_url }}" alt="Joshua Cardenas">
-          <p>Joshua Cardenas</p>
-          <p>Electronic Engineer </p>
-          <div class="header-contact">
-            <p>Contact me:</p>
-            <ul>
-              {% for contact in site.contacts %}
-                {% if contact.type == 'email' %}
-                  <li><a href="mailto:{{ contact.value }}">{{ contact.value }}</a></li>
-                {% endif %}
-              {% endfor %}
-            </ul>
-          </div>
-          <a href="https://wa.me/573112562317" class="whatsapp-button" target="_blank">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
-          </a>
+      <div class="header-content">
+        <img src="{{ '/assets/img/head_shot_circle.jpg' | relative_url }}" alt="Joshua Cardenas">
+        <p>Joshua Cardenas</p>
+        <p>Electronic Engineer </p>
+        <div class="header-contact">
+          <p>Contact me:</p>
+          <ul>
+            {% for contact in site.contacts %}
+              {% if contact.type == 'email' %}
+                <li><a href="mailto:{{ contact.value }}">{{ contact.value }}</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
         </div>
+        <a href="https://wa.me/573112562317" class="whatsapp-button" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-icon">
+        </a>
+      </div>
 
-        {% if site.github.is_user_page %}
-        <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
-        {% endif %}
+      {% if site.github.is_user_page %}
+      <p class="view"><a href="{{ site.github.owner_url }}">View My GitHub Profile</a></p>
+      {% endif %}
 
-        {% if site.show_downloads %}
-        <ul class="downloads">
-          <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
-          <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
-        </ul>
-        {% endif %}
-      </header>
- <main>
-      {% assign sections = content | split: '## ' %}
-      {% for section in sections %}
-        {% if section != "" %}
-          <section class="portfolio-section">
-            <h2>{{ section | split: '\n' | first }}</h2>
-            <div>
-              {{ section | split: '\n' | slice: 1, section.size | join: '\n' | markdownify }}
-            </div>
-          </section>
-        {% endif %}
-      {% endfor %}
-     <main>
-      {% assign sections = content | split: '## ' %}
-      {% for section in sections %}
-        {% if section != "" %}
-          <section class="portfolio-section">
-            <h2>{{ section | split: '\n' | first }}</h2>
-            <div>
-              {{ section | split: '\n' | slice: 1, section.size | join: '\n' | markdownify }}
-            </div>
-          </section>
-        {% endif %}
-      {% endfor %}
-  </main>
+      {% if site.show_downloads %}
+      <ul class="downloads">
+        <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
+        <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
+        <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
+      </ul>
+      {% endif %}
+    </header>
+      <main>
+          {% assign sections = content | split: '## ' %}
+          {% for section in sections %}
+              {% if section != "" %}
+              <section class="portfolio-section" data-section-index="{{ forloop.index0 }}">
+                <h2>{{ section | split: '\n' | first }}</h2>
+                  <div>
+                    {{ section | split: '\n' | slice: 1, section.size | join: '\n' | markdownify }}
+                  </div>
+                </section>
+              {% endif %}
+          {% endfor %}
+      </main>
   </div>
   <div class="viewport-overlay"></div>
   <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
   <script>
     document.addEventListener('DOMContentLoaded', function () {
-        const sections = document.querySelectorAll('.portfolio-section');
-        const firstSection = sections[0];
+      const sections = document.querySelectorAll('.portfolio-section');
+      const firstSection = sections[0];
 
         if (firstSection) {
             firstSection.classList.add('revealed');
         }
-        
+    
         sections.forEach((section, index) => {
-            if(index === 0) return;
-          const observer = new IntersectionObserver(entries => {
-            entries.forEach(entry => {
-              if (entry.isIntersecting) {
-                entry.target.classList.add('revealed');
-                observer.unobserve(entry.target);
-              }else {
-                  entry.target.classList.remove('revealed');
-              }
-            });
-          }, {
-            threshold: 0.2,
-          });
+            if (index === 0) return;
+                const observer = new IntersectionObserver(entries => {
+                    entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                            entry.target.classList.add('revealed');
+                            observer.unobserve(entry.target);
+                        } else {
+                            entry.target.classList.remove('revealed')
+                        }
+                    });
+                }, {
+                threshold: 0.2,
+                });
             observer.observe(section);
         });
     });
 </script>
-  </body>
+</body>
 </html>
