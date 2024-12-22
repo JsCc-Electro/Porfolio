@@ -55,12 +55,12 @@
       {% assign sections = content | split: '## ' %}
       {% for section in sections %}
         {% if section != "" %}
-        <section class="portfolio-section">
-          <h2>{{ section | split: '\n' | first }}</h2>
-          <div>
-            {{ section | split: '\n' | slice: 1, section.size | join: '\n' | markdownify }}
-          </div>
-        </section>
+          <section class="portfolio-section">
+            <h2>{{ section | split: '\n' | first }}</h2>
+            <div>
+              {{ section | split: '\n' | slice: 1, section.size | join: '\n' | markdownify }}
+            </div>
+          </section>
         {% endif %}
       {% endfor %}
     </main>
@@ -70,21 +70,17 @@
     document.addEventListener('DOMContentLoaded', function () {
       const sections = document.querySelectorAll('.portfolio-section');
 
-      function checkScroll() {
-        sections.forEach(section => {
-          const sectionTop = section.offsetTop;
-          const sectionHeight = section.offsetHeight;
-          const windowHeight = window.innerHeight;
-          const scrollPosition = window.scrollY;
-
-          if (scrollPosition > sectionTop - windowHeight + sectionHeight / 4) {
-            section.classList.add('show');
-          }
-        });
-      }
-
-      window.addEventListener('scroll', checkScroll);
-      checkScroll(); // Ejecutar al cargar la página.
+      sections.forEach(section => {
+          const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add('show');
+                observer.unobserve(entry.target); // Unobservar después de la animación
+              }
+            });
+          });
+        observer.observe(section);
+      });
     });
   </script>
   </body>
