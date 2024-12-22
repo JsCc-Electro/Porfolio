@@ -182,7 +182,17 @@ ul, ol {
 li {
     margin-bottom: 10px;
 }
+/* Animaciones al hacer scroll */
+section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
 
+section.show {
+    opacity: 1;
+    transform: translateY(0);
+}
 /* Asegurarse de que no haya fondo en elementos h2 */
 h2 {
     background-color: transparent !important;
