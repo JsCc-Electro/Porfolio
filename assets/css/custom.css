@@ -18,16 +18,7 @@
     --details-border-color: #cccccc; /* Borde de los detalles */
 }
 
-/* Animaciones al hacer scroll */
-.portfolio-section {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.5s ease, transform 0.5s ease;
- }
-.portfolio-section.show {
-    opacity: 1;
-     transform: translateY(0);
- }
+
 /* Cambiar el color de fondo del cuerpo */
 body {
     background-color: var(--background-color);
@@ -200,3 +191,13 @@ h2 {
     box-shadow: none !important;
     margin-top: 0 !important;
 }
+/* Animaciones al hacer scroll */
+.portfolio-section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+ }
+.portfolio-section.show {
+    opacity: 1;
+     transform: translateY(0);
+ }
