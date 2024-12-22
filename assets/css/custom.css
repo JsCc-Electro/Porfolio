@@ -191,13 +191,6 @@ h2 {
     box-shadow: none !important;
     margin-top: 0 !important;
 }
-/* Animaciones al hacer scroll */
-.portfolio-section {
-  position: relative; /* Para el degradado absoluto */
-  transition: opacity 0.3s ease, transform 0.3s ease;
-    opacity: 0;
-    transform: translateY(20px); /* Opcional: Desplazar un poco hacia abajo */
-}
 
 .portfolio-section {
   position: relative; /* Para la animación */
