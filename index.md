@@ -118,9 +118,15 @@ Technology used: C, Arduino uno, LabView, Digital Dimmer.
   </ul>
   <!-- Contenedor para las imágenes -->
   <div class="drone-images-container">
+    <div class="drone-image-column">
       <img src="assets/img/DJI_0434.JPG" alt="Imagen de drone 1">
+    </div>
+    <div class="drone-image-column">
       <img src="assets/img/DJI_0495.JPG" alt="Imagen de drone 2">
+    </div>
+    <div class="drone-image-column">
       <img src="assets/img/DJI_0597.JPG" alt="Imagen de drone 3">
+    </div>
   </div>
 </details>
 
