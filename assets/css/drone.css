@@ -1,40 +1,40 @@
 /* Estilo para details con clase drone-images-container */
 body details.drone-images-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: flex-start;
-    padding: 10px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  max-width: 100%;
+    gap: 10px;
 }
 
 body details.drone-images-container > summary {
-  flex: 0 0 100%;
-  margin-bottom: 10px;
+    flex: 0 0 100%;
+    margin-bottom: 10px;
 }
+
 
 body details.drone-images-container img {
-    width: 30%;
-    max-width: 200px;
-    height: auto;
-    margin: 10px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  max-width: 200px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-
 
 /* Ajustes para pantallas más pequeñas */
 @media screen and (max-width: 768px) {
-    body details.drone-images-container {
-        flex-direction: column;
-    }
-    body details.drone-images-container img {
-        width: 80%;
-        margin: 10px auto;
-    }
-     body details.drone-images-container > summary{
-        margin: 10px auto;
-    }
+  body details.drone-images-container {
+    flex-direction: column;
+      gap: 10px;
+  }
+  body details.drone-images-container img {
+    width: 80%;
+  }
+    body details.drone-images-container > summary{
+    margin: 10px auto;
+  }
 }
