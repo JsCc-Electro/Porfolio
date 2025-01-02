@@ -1,1 +1,41 @@
 
+/* Estilo para details con clase drone-images-container */
+details.drone-images-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite que las imágenes pasen a la siguiente fila */
+    justify-content: space-around;
+    align-items: flex-start; /* Alinea las imágenes verticalmente al inicio*/
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    max-width: 100%;
+}
+
+details.drone-images-container > summary {
+  flex: 0 0 100%; /* Ocupa toda la fila para el summary */
+  margin-bottom: 10px; /* Espacio entre summary y las imágenes */
+}
+
+
+details.drone-images-container img {
+    width: 30%; /* Ancho de las imágenes */
+    max-width: 200px; /* Máximo ancho de la imagen */
+    height: auto;
+    margin: 10px; /* Espacio alrededor de las imágenes */
+    border-radius: 8px; /* Redondeo de las esquinas */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Ajustes para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+    details.drone-images-container {
+        flex-direction: column; /* Apila las imágenes en pantallas pequeñas */
+    }
+    details.drone-images-container img {
+        width: 80%; /* Ajusta el ancho en pantallas pequeñas */
+        margin: 10px auto; /* Centra las imágenes */
+    }
+    details.drone-images-container > summary{
+       margin: 10px auto;
+    }
+}
