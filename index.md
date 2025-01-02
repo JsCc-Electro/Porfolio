@@ -116,5 +116,11 @@ Technology used: C, Arduino uno, LabView, Digital Dimmer.
     <li>Construction inspection, land mapping, event recording and project monitoring.</li>
     <li>Process images to obtain area measurements and detect possible anomalies.</li>
   </ul>
+  <!-- Contenedor para las imágenes -->
+  <div class="drone-images-container">
+      <img src="assets/img/DJI_0434.JPG" alt="Imagen de drone 1">
+      <img src="assets/img/DJI_0495.JPG" alt="Imagen de drone 2">
+      <img src="assets/img/DJI_0597.JPG" alt="Imagen de drone 3">
+  </div>
 </details>
 
