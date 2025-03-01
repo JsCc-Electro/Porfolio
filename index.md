@@ -66,55 +66,21 @@ Technology used: C, Arduino uno, LabView, Digital Dimmer.
 
 ## Positions of responsibility
 
-<details>  
-  <summary>Legal Representative, Electro Tech Integral (Nov 8 - Present)</summary>
-  
+<details>
+  <summary>3D Design and Modeling Engineer, Select Joinery (Sydney, Australia - Remote) (January 2025 - February 2025)</summary>
   <ul>
-    <li>Responsible for the legal representation of the company, managing contract execution, strategic decision-making, and ensuring regulatory compliance to support company growth and operations.</li>
+    <li>Responsible for the 3D design and modeling of residential remodeling projects.</li>
+    <li>Utilized SketchUp to create 3D models and photorealistic renders.</li>
+    <li>Developed technical drawings with human-scale measurements.</li>
+    <li>Applied engineering principles to ensure accuracy and efficiency in design.</li>
   </ul>
-
 </details>
 
-<details>  
-  <summary>Project Manager, San Miguel Residential Development, Rioblanco Tolima (Sep 20 - Present)</summary>
-  
-  <ul>
-    <li>Led comprehensive project planning and resource management to ensure efficient, on-schedule development, overseeing contracts, budgets, and administrative decisions essential for successful lot sales and community establishment.</li>
-    <li>Developed and implemented targeted marketing campaigns to promote the development, coordinating with stakeholders to drive visibility and engagement among potential buyers.</li>
-  </ul>
-  </details>
 <details>
-  <summary>Community Manager, Palabras que sanan Padre Andres (Jul 2024 - Present) </summary>
+  <summary>Drone Operator, Geriatric Home (Rioblanco, Tolima) (December 2023 - January 2025)</summary>
   <ul>
-    <li>Responsible for the comprehensive management of social networks, including content creation, event planning and execution, coordination of financial flows from social platforms to corporate accounts, and administration of advertising campaigns. </li>
-  </ul>
-</details>
-<details>
-  <summary>Technology and Digital Security Coordinator, Sole Notary, Rioblanco, Tolima (Jun 2024 - Present)</summary>
-  <ul>
-    <li>Comprehensive management of technological systems, including installation and maintenance of equipment (printers, cameras, software), and consulting on strategic decisions.</li> 
-  </ul>
-</details>
-<details>
-  <summary>Amazon Kindle Editor (May 2023 - Present)</summary>
-  <ul>
-    <li>Designed and created attractive, professional book covers, enhancing the visibility and appeal of the final product.</li>
-    <li>Added essential missing content, ensuring the published material is complete and coherent.</li>
-    <li>Reorganized books by chapters and sections, optimizing the structure for a better reading experience.</li>
-  </ul>
-</details>
-<details>
-  <summary>Geriatric Home Construction Supervisor, Rioblanco Tolima. (Dec 2023 - Feb 2024)</summary>
-  <ul>
-    <li>Coordinate the activities of workers, subcontractors and suppliers.</li>
-    <li>Keep detailed records of activities, progress reports, design changes.</li>
-  </ul>
-</details>
-<details>
-  <summary>Drone Operator Geriatric Home - Rioblanco Tolima. (Dec 2023 - Present)</summary>
-  <ul>
-    <li>Construction inspection, land mapping, event recording and project monitoring.</li>
-    <li>Process images to obtain area measurements and detect possible anomalies.</li>
+    <li>Conducted construction inspection, land mapping, event recording, and project monitoring.</li>
+    <li>Processed images to obtain area measurements and detect possible anomalies.</li>
   </ul>
   <!-- Contenedor para las imágenes -->
   <div class="drone-images-container">
@@ -129,4 +95,51 @@ Technology used: C, Arduino uno, LabView, Digital Dimmer.
     </div>
   </div>
 </details>
+
+<details>
+  <summary>Geriatric Home Construction Supervisor (Rioblanco, Tolima) (December 2023 - January 2025)</summary>
+  <ul>
+    <li>Coordinated the activities of workers, subcontractors, and suppliers.</li>
+    <li>Kept detailed records of activities, progress reports, and design changes.</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Legal Representative, Electro Tech Integral (November 8 - Present)</summary>
+  <ul>
+    <li>Responsible for the legal representation of the company, managing contract execution, strategic decision-making, and ensuring regulatory compliance to support company growth and operations.</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Community Manager, Palabras que sanan Padre Andres (July 2024 - January 2025)</summary>
+  <ul>
+    <li>Responsible for the comprehensive management of social networks, including content creation, event planning and execution, coordination of financial flows from social platforms to corporate accounts, and administration of advertising campaigns.</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Project Manager, San Miguel Residential Development (Rioblanco, Tolima) (September 2024 - December 2024)</summary>
+  <ul>
+    <li>Led comprehensive project planning and resource management to ensure efficient, on-schedule development, overseeing contracts, budgets, and administrative decisions essential for successful lot sales and community establishment.</li>
+    <li>Developed and implemented targeted marketing campaigns to promote the development, coordinating with stakeholders to drive visibility and engagement among potential buyers.</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Technology and Digital Security Coordinator, Sole Notary (Rioblanco, Tolima) (June 2023 - May 2024)</summary>
+  <ul>
+    <li>Comprehensive management of technological systems, including installation and maintenance of equipment (printers, cameras, software), and consulting on strategic decisions.</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Amazon Kindle Editor (January 2024 - June 2024)</summary>
+  <ul>
+    <li>Designed and created attractive, professional book covers, enhancing the visibility and appeal of the final product.</li>
+    <li>Added essential missing content, ensuring the published material is complete and coherent.</li>
+    <li>Reorganized books by chapters and sections, optimizing the structure for a better reading experience.</li>
+  </ul>
+</details>
+
 
