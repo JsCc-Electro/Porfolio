@@ -36,12 +36,10 @@ body {
 
 /* Header */
 header {
-    background-color: var(--header-background-color);
-    color: var(--header-text-color);
-    padding: 2rem 0; /* Ajusta el padding para Bootstrap */
-    text-align: center;
-    border-radius: 0.5rem; /* Usa rem para consistencia */
-    margin-bottom: 2rem;
+  background-color: #f8f9fa; /* Reemplaza var(--header-background-color) con un color directo */
+  text-align: center;
+  padding: 20px; /* Usa px para simplificar */
+  margin-bottom: 20px; /* Usa px para simplificar */
 }
 
 header p {
