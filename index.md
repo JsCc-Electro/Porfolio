@@ -13,12 +13,18 @@
 </head>
 <body>
 
-  <header class="bg-light py-3">
-    <div class="container">
-      <h1>Joshua Sebastian Cardenas Carrero</h1>
-      <p>Data Engineer</p>
+ <header class="bg-light py-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h1>Joshua Sebastian Cardenas Carrero</h1>
+      </div>
+      <div class="col-md-6 text-md-end">
+        <p>Data Engineer</p>
+      </div>
     </div>
-  </header>
+  </div>
+</header>
 
   <main class="container py-5">
     <section id="AboutMe" class="mb-5">
