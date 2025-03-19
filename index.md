@@ -35,7 +35,7 @@
       <!-- Add more information about yourself here -->
     </section>
 
-    <section id="Skills" class="mb-5">
+  <section id="Skills" class="mb-5">
       <h2>Technical Skills and Interests</h2>
       <ul>
         <li><strong>Languages:</strong> C/C++, Python, Javascript-Kotlin, HTML</li>
@@ -49,7 +49,7 @@
       </ul>
     </section>
 
-    <section id="Education" class="mb-5">
+  <section id="Education" class="mb-5">
       <h2>Education</h2>
       <ul>
         <li><strong>Electronic Engineer:</strong> The University of Quindío (License No. EC206-179481)</li>
@@ -58,7 +58,7 @@
       </ul>
     </section>
 
-    <section id="Experience" class="mb-5">
+  <section id="Experience" class="mb-5">
       <h2>Experience</h2>
       <div class="card mb-3">
         <div class="card-body">
@@ -70,7 +70,7 @@
         </div>
       </div>
 
-      <div class="card mb-3">
+  <div class="card mb-3">
         <div class="card-body">
           <h5 class="card-title">Product Manager CDIO 2 and CDIO 3</h5>
           <h6 class="card-subtitle mb-2 text-muted">(Sep 2022 - Dec 2023)</h6>
@@ -81,10 +81,10 @@
       </div>
     </section>
 
-    <section id="Projects" class="mb-5">
+  <section id="Projects" class="mb-5">
       <h2>Projects</h2>
 
-      <div class="card mb-3">
+  <div class="card mb-3">
         <div class="card-body">
           <h5 class="card-title">CNC Machine</h5>
           <p class="card-text">
@@ -93,7 +93,7 @@
           <p class="card-text">
             <strong>Technology used:</strong> Python, Wi-Fi, Raspberry, ESP32, Inkscape.
           </p>
-          <details>
+  <details>
             <summary>Project Infographic</summary>
             <img src="assets/img/info.jpg" alt="Project Infographic" class="img-fluid">
             <br><br>
@@ -101,7 +101,7 @@
         </div>
       </div>
 
-      <div class="card mb-3">
+  <div class="card mb-3">
         <div class="card-body">
           <h5 class="card-title">5G SA Network with Open5gs and srsRAN</h5>
           <p class="card-text">
@@ -114,7 +114,7 @@
         </div>
       </div>
 
-      <div class="card mb-3">
+  <div class="card mb-3">
         <div class="card-body">
           <h5 class="card-title">Temperature control in liquids</h5>
           <p class="card-text">
@@ -123,7 +123,7 @@
           <p class="card-text">
             <strong>Technology used:</strong> C, Arduino uno, LabView, Digital Dimmer.
           </p>
-          <details>
+  <details>
             <summary>Project Infographic</summary>
             <img src="assets/img/Calentador_Info.jpg" alt="Project Infographic" class="img-fluid">
             <br><br>
@@ -132,10 +132,10 @@
       </div>
     </section>
 
-    <section id="Responsibilities" class="mb-5">
+  <section id="Responsibilities" class="mb-5">
       <h2>Positions of responsibility</h2>
 
-      <details>
+  <details>
         <summary class="h6">3D Design and Modeling Engineer, Select Joinery (Sydney, Australia - Remote) (January 2025 - February 2025)</summary>
         <ul>
           <li>Responsible for the 3D design and modeling of residential remodeling projects.</li>
@@ -145,7 +145,7 @@
         </ul>
       </details>
 
-      <details>
+  <details>
         <summary class="h6">Drone Operator, Geriatric Home (Rioblanco, Tolima) (December 2023 - January 2025)</summary>
         <ul>
           <li>Conducted construction inspection, land mapping, event recording, and project monitoring.</li>
@@ -165,7 +165,7 @@
         </div>
       </details>
 
-      <details>
+  <details>
         <summary class="h6">Geriatric Home Construction Supervisor (Rioblanco, Tolima) (December 2023 - January 2025)</summary>
         <ul>
           <li>Coordinated the activities of workers, subcontractors, and suppliers.</li>
@@ -173,21 +173,21 @@
         </ul>
       </details>
 
-      <details>
+  <details>
         <summary class="h6">Legal Representative, Electro Tech Integral (November 8 - Present)</summary>
         <ul>
           <li>Responsible for the legal representation of the company, managing contract execution, strategic decision-making, and ensuring regulatory compliance to support company growth and operations.</li>
         </ul>
       </details>
 
-      <details>
+  <details>
         <summary class="h6">Community Manager, Palabras que sanan Padre Andres (July 2024 - January 2025)</summary>
         <ul>
           <li>Responsible for the comprehensive management of social networks, including content creation, event planning and execution, coordination of financial flows from social platforms to corporate accounts, and administration of advertising campaigns.</li>
         </ul>
       </details>
 
-      <details>
+  <details>
         <summary class="h6">Project Manager, San Miguel Residential Development (Rioblanco, Tolima) (September 2024 - December 2024)</summary>
         <ul>
           <li>Led comprehensive project planning and resource management to ensure efficient, on-schedule development, overseeing contracts, budgets, and administrative decisions essential for successful lot sales and community establishment.</li>
@@ -195,14 +195,14 @@
         </ul>
       </details>
 
-      <details>
+  <details>
         <summary class="h6">Technology and Digital Security Coordinator, Sole Notary (Rioblanco, Tolima) (June 2023 - May 2024)</summary>
         <ul>
           <li>Comprehensive management of technological systems, including installation and maintenance of equipment (printers, cameras, software), and consulting on strategic decisions.</li>
         </ul>
       </details>
 
-      <details>
+  <details>
         <summary class="h6">Amazon Kindle Editor (January 2024 - June 2024)</summary>
         <ul>
           <li>Designed and created attractive, professional book covers, enhancing the visibility and appeal of the final product.</li>
