@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function () {
         });
         observer.observe(section);
     });
-});
+
  particlesJS('particles-js', {
         particles: {
             number: {
