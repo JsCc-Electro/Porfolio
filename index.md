@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en"> <!-- Cambiado a lang="en" -->
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>José Sánchez Carrillo - Portfolio</title> <!-- Cambiado a "Portfolio" -->
+  <title>Joshua Sebastian Cardenas Carrero - Portfolio</title>
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -15,22 +15,22 @@
 
   <header class="bg-light py-3">
     <div class="container">
-      <h1>José Sánchez Carrillo</h1>
+      <h1>Joshua Sebastian Cardenas Carrero</h1>
       <p>Data Engineer</p>
     </div>
   </header>
 
   <main class="container py-5">
-    <section id="AboutMe" class="mb-5">  <!-- Cambiado a "AboutMe" -->
-      <h2>About Me</h2>  <!-- Cambiado a "About Me" -->
+    <section id="AboutMe" class="mb-5">
+      <h2>About Me</h2>
       <p>
         Electronics Engineer with experience in programming and data analysis, seeking to transition into the field of Data Science. Proficient in Python and analytical tools, with a background in multidisciplinary projects involving system control and performance evaluation. Passionate about using data to solve complex problems and drive innovation.
       </p>
       <!-- Add more information about yourself here -->
     </section>
 
-    <section id="Skills" class="mb-5">  <!-- Cambiado a "Skills" -->
-      <h2>Technical Skills and Interests</h2>  <!-- Cambiado a "Technical Skills and Interests" -->
+    <section id="Skills" class="mb-5">
+      <h2>Technical Skills and Interests</h2>
       <ul>
         <li><strong>Languages:</strong> C/C++, Python, Javascript-Kotlin, HTML</li>
         <li><strong>Libraries:</strong> C++ STL, Python Libraries, ReactJs</li>
@@ -43,7 +43,7 @@
       </ul>
     </section>
 
-    <section id="Education" class="mb-5">  <!-- Cambiado a "Education" -->
+    <section id="Education" class="mb-5">
       <h2>Education</h2>
       <ul>
         <li><strong>Electronic Engineer:</strong> The University of Quindío (License No. EC206-179481)</li>
@@ -126,8 +126,8 @@
       </div>
     </section>
 
-    <section id="Responsibilities" class="mb-5">  <!-- Cambiado a "Responsibilities" -->
-      <h2>Positions of responsibility</h2>  <!-- Cambiado a "Positions of responsibility" -->
+    <section id="Responsibilities" class="mb-5">
+      <h2>Positions of responsibility</h2>
 
       <details>
         <summary class="h6">3D Design and Modeling Engineer, Select Joinery (Sydney, Australia - Remote) (January 2025 - February 2025)</summary>
@@ -148,13 +148,13 @@
         <!-- Container for the images -->
         <div class="row">
           <div class="col-md-4">
-            <img src="assets/img/DJI_0434.JPG" alt="Drone image 1" class="img-fluid">  <!-- Cambiado a "Drone image" -->
+            <img src="assets/img/DJI_0434.JPG" alt="Drone image 1" class="img-fluid">
           </div>
           <div class="col-md-4">
-            <img src="assets/img/DJI_0495.JPG" alt="Drone image 2" class="img-fluid">  <!-- Cambiado a "Drone image" -->
+            <img src="assets/img/DJI_0495.JPG" alt="Drone image 2" class="img-fluid">
           </div>
           <div class="col-md-4">
-            <img src="assets/img/DJI_0597.JPG" alt="Drone image 3" class="img-fluid">  <!-- Cambiado a "Drone image" -->
+            <img src="assets/img/DJI_0597.JPG" alt="Drone image 3" class="img-fluid">
           </div>
         </div>
       </details>
@@ -209,7 +209,7 @@
 
   <footer class="bg-dark text-white py-4">
     <div class="container text-center">
-      <p>© 2024 José Sánchez Carrillo</p>
+      <p>© 2024 Joshua Sebastian Cardenas Carrero</p>
     </div>
   </footer>
 
