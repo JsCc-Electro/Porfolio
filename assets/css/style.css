@@ -36,10 +36,13 @@ body {
 
 /* Header */
 header {
-  background-color: #f8f9fa; /* Reemplaza var(--header-background-color) con un color directo */
-  text-align: center;
-  padding: 20px; /* Usa px para simplificar */
-  margin-bottom: 20px; /* Usa px para simplificar */
+    background-color: var(--header-background-color);
+    color: var(--header-text-color);
+    padding: 1rem; /* Menos padding */
+    text-align: center;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 0 auto 2rem; /* Añadido un margen inferior */
 }
 
 header p {
