@@ -43,7 +43,7 @@ header {
     padding: 1rem; /* Menos padding */
     text-align: center;
     border-radius: 10px;
-    max-width: 600px;
+    max-width: 90%;
     margin: 0 auto 2rem; /* Añadido un margen inferior */
 }
 
@@ -58,11 +58,12 @@ header p {
 }
 
 .header-content img {
-    width: 120px; /* Ajusta el tamaño según sea necesario */
+    width: 80%; /* Ajusta el tamaño según sea necesario */
     border-radius: 50%; /* Para que la imagen sea circular */
     margin-bottom: 1rem; /* Añadido margen inferior */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sutil sombra */
     border: 3px solid white; /* Borde blanco */
+    max-width: 120px
 }
 
 .header-contact {
