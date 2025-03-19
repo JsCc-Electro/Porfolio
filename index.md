@@ -34,7 +34,7 @@ Electronics Engineer with experience in programming and data analysis, seeking t
 - Drawing images or circuits using Gerber language.
 - Design and construction of a CNC machine controlled from a Raspberry pi 3 with raspbian.
 - Design of an interface in python to control the movements of the machine.
-Technology used: Python, Wi?, Raspberry, ESP32, Inkscape.
+- Technology used: Python, Wifi, Raspberry, ESP32, Inkscape.
 
 <details>
   <summary>Project Infographic</summary>
