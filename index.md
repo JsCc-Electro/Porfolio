@@ -13,18 +13,7 @@
 </head>
 <body>
 
- <header class="bg-light py-3">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 col-md-6">
-        <h1>Joshua Sebastian Cardenas Carrero</h1>
-      </div>
-      <div class="col-12 col-md-6 text-md-end">
-        <p>Data Engineer</p>
-      </div>
-    </div>
-  </div>
-</header>
+
 
   <main class="container py-3 py-md-5">
     <section id="AboutMe" class="mb-5">
