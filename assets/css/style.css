@@ -257,3 +257,95 @@ main > section {
     z-index: 10;
 }
 
+/* Estilos generales que se aplican a todos los tamaños de pantalla */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #003366;
+  padding: 1rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+.button {
+  background-color: #0066cc;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+/* Media query para dispositivos pequeños (móviles) */
+@media (max-width: 600px) {
+  body {
+    background-color: #e0e0e0; /* Cambia el fondo en pantallas pequeñas */
+  }
+
+  header {
+    background-color: #1e90ff; /* Cambia el color de fondo del header */
+    padding: 0.5rem; /* Menos padding en pantallas pequeñas */
+  }
+
+  h1 {
+    font-size: 1.5rem; /* Ajusta el tamaño de la fuente para móviles */
+  }
+
+  .button {
+    padding: 8px 15px; /* Reduce el tamaño de los botones */
+  }
+
+  a {
+    font-size: 0.9rem; /* Reduce el tamaño de los enlaces */
+  }
+}
+
+/* Media query para dispositivos medianos (tabletas) */
+@media (min-width: 601px) and (max-width: 900px) {
+  header {
+    padding: 1rem; /* Mantén el padding original en tabletas */
+  }
+
+  h1 {
+    font-size: 1.8rem; /* Ajusta el tamaño de la fuente para tabletas */
+  }
+
+  .button {
+    padding: 10px 20px; /* Tamaño de botón original en tabletas */
+  }
+}
+
+/* Media query para dispositivos grandes (pantallas de escritorio) */
+@media (min-width: 901px) {
+  body {
+    background-color: #f4f4f4; /* Vuelve al color original del fondo */
+  }
+
+  header {
+    background-color: #003366; /* Color de fondo del header */
+    padding: 2rem; /* Más padding en pantallas grandes */
+  }
+
+  h1 {
+    font-size: 2.2rem; /* Fuente más grande en pantallas grandes */
+  }
+
+  .button {
+    padding: 12px 25px; /* Botones más grandes */
+  }
+}
+
+
