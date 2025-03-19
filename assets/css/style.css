@@ -154,12 +154,15 @@ header {
 
 /* Estilos de la imagen en el encabezado */
 .header-content img {
-    width: 120px;
-    border-radius: 50%;
+    max-width: 100%; /* Asegura que la imagen no se salga del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 50%; /* Para que la imagen sea circular */
     margin-bottom: 1rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     border: 3px solid white;
 }
+
+
 
 /* Estilo de los botones de contacto */
 .header-contact {
