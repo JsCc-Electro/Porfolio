@@ -136,33 +136,30 @@ h4 {
 header {
     background-color: var(--header-background-color);
     color: var(--header-text-color);
-    padding: 1rem;
-    text-align: center; /* Centrado de texto en el header */
+    padding: 1rem; /* Menos padding */
+    text-align: center;
     border-radius: 10px;
-    width: 20%; /* Ocupa el 100% del ancho */
-    max-width: 600px; /* Limita el tamaño máximo del header */
-    margin: 0 auto 2rem; /* Centramos el header con auto márgenes en los lados */
-    max-height: 300px; /* Set a maximum height */
+    max-width: 600px;
+    margin: 0 auto 2rem; /* Añadido un margen inferior */
 }
 
-/* Contenedor de contenido en el encabezado */
+header p{
+    margin: 0.3rem 0;
+}
+
 .header-content {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Alinea los elementos de la cabecera al centro */
-    justify-content: center;
+    align-items: center;
 }
 
-/* Estilos de la imagen en el encabezado */
 .header-content img {
-    max-width: 100%; /* Asegura que la imagen no se salga del contenedor */
-    height: auto; /* Mantiene la proporción de la imagen */
+    width: 120px; /* Ajusta el tamaño según sea necesario */
     border-radius: 50%; /* Para que la imagen sea circular */
-    margin-bottom: 1rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-    border: 3px solid white;
+    margin-bottom: 1rem; /* Añadido margen inferior */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sutil sombra */
+    border: 3px solid white; /* Borde blanco */
 }
-
 
 
 /* Estilo de los botones de contacto */
