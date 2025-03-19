@@ -38,8 +38,11 @@ Technology used: Python, Wi?, Raspberry, ESP32, Inkscape.
 
 <details>
   <summary>Project Infographic</summary>
-  <img src="assets/img/info.jpg" alt="Project Infographic">
-  <br><br>
+  <div class="image-gallery-container">
+    <div class="image-gallery-item">
+      <img src="assets/img/info.jpg" alt="Project Infographic">
+    </div>
+  </div>
 </details>
 
 
@@ -59,8 +62,11 @@ Technology used: C, Arduino uno, LabView, Digital Dimmer.
 
 <details>
   <summary>Project Infographic</summary>
-  <img src="assets/img/Calentador_Info.jpg" alt="Project Infographic">
-<br><br>
+  <div class="image-gallery-container">
+    <div class="image-gallery-item">
+      <img src="assets/img/Calentador_Info.jpg" alt="Project Infographic">
+    </div>
+  </div>
 </details>
 
 
