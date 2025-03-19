@@ -1,4 +1,4 @@
-# Data Engineer
+## Data Engineer
 Electronics Engineer with experience in programming and data analysis, seeking to transition into the field of Data Science. Proficient in Python and analytical tools, with a background in multidisciplinary projects involving system control and performance evaluation. Passionate about using data to solve complex problems and drive innovation.
 
 ## Technical skills and interests
