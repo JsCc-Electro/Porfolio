@@ -1,1 +1,45 @@
 
+/* Estilos para el contenedor de la galería de imágenes */
+.image-gallery-container {
+  display: flex;
+  justify-content: space-around;  /* Distribute items evenly */
+  align-items: flex-start;       /* Align items to the top */
+  margin-bottom: 20px;
+  gap: 10px;                     /* Space between items */
+}
+
+/* Estilos para cada elemento de la galería */
+.image-gallery-item {
+    width: 30%;                    /* Each item takes up 30% */
+    display: flex;               /* Center image if it's shorter */
+    justify-content: center;       /* Horizontal centering */
+}
+
+/* Estilos para las imágenes dentro de la galería */
+.image-gallery-item img {
+  max-width: 100%;                /* Never exceed container width */
+  max-height: 200px;              /* Limit image height */
+  border-radius: 8px;             /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  object-fit: cover;              /* Crop to fit */
+  /* Optional: Add transition for smooth resizing */
+  transition: all 0.3s ease;
+}
+
+/* Ajustes para pantallas más pequeñas (Responsive) */
+@media screen and (max-width: 768px) {
+  .image-gallery-container {
+    flex-direction: column;          /* Stack items vertically */
+  }
+
+  .image-gallery-item {
+    width: 100%;                    /* Take up full width on small screens */
+    display: flex;                 /* Center image */
+    justify-content: center;         /* Horizontal centering */
+  }
+
+  .image-gallery-item img {
+    width: 80%;                     /* Image takes up 80% */
+    max-width: none;                /* Remove max-width */
+  }
+}
