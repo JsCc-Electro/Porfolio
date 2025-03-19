@@ -182,13 +182,6 @@ header p {
 }
 
 
-header img {
-    border-radius: 50%;
-    max-width: 150px;
-    margin: 10px auto;
-    display: block;
-}
-
 /* Estilo del botón de WhatsApp */
 .whatsapp-button {
     display: flex;
