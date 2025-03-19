@@ -134,46 +134,50 @@ h4 {
 
 /* Estilo del encabezado */
 header {
-    background-color: var(--header-background-color);
-    color: var(--header-text-color);
-    padding: 1rem; /* Menos padding */
-    text-align: center;
-    border-radius: 10px;
-    max-width: 700px;
-    margin: 0 auto 2rem; /* Añadido un margen inferior */
+  background-color: var(--header-background-color);
+  color: var(--header-text-color);
+  padding: 1rem;
+  text-align: center; /* Removed, we'll use flexbox for centering */
+  border-radius: 10px;
+  max-width: 700px; /* You can adjust this */
+  margin: 0 auto 2rem;
 }
 
-header p{
-    margin: 0.3rem 0;
+header p {
+  margin: 0.3rem 0;
 }
 
 .header-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center;  /* Center items horizontally */
 }
 
 .header-content img {
-    width: 120px; /* Ajusta el tamaño según sea necesario */
-    border-radius: 50%; /* Para que la imagen sea circular */
-    margin-bottom: 1rem; /* Añadido margen inferior */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sutil sombra */
-    border: 3px solid white; /* Borde blanco */
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border: 3px solid white;
 }
-
 
 /* Estilo de los botones de contacto */
 .header-contact {
-    margin-top: 0.75em;
-    margin-bottom: 0.75em;
+  display: flex;       /* Use Flexbox for centering */
+  flex-direction: column; /* Stack vertically */
+  align-items: center;   /* Center horizontally */
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+  white-space: nowrap;  /* Prevent wrapping */
 }
 
 .header-contact a {
-    color: var(--header-text-color); /* Correos en color blanco */
+  color: var(--header-text-color);
+  margin: 0 0.5rem; /* Add some horizontal space between the links */
 }
 
 .header-contact a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* Estilo del botón de WhatsApp */
