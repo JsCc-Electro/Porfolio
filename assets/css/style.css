@@ -18,6 +18,15 @@
     --details-border-color: #cccccc; /* Borde de los detalles */
 }
 
+/* Reset Box-sizing */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* Fondo particles.js */
 #particles-js {
   position: absolute;
   top: 0;
@@ -26,7 +35,8 @@
   height: 100vh;
   z-index: -1;
 }
-/* Cambiar el color de fondo del cuerpo */
+
+/* Estilos globales */
 body {
     background-color: var(--background-color);
     color: var(--text-color);
@@ -34,9 +44,86 @@ body {
     line-height: 1.6;
 }
 
-/* Estilo del contenedor principal */
+/* Estilos de enlaces */
+a {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
 
-/* Estilo del encabezado */
+a:hover {
+    color: var(--link-hover-color);
+    text-decoration: underline;
+}
+
+/* Estilos de botones */
+button, .button {
+    background-color: var(--button-background-color);
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+button:hover, .button:hover {
+    background-color: var(--button-hover-background-color);
+    transform: translateY(-2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos de párrafos y listas */
+p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+}
+
+ul, ol {
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+/* Estilos comunes para encabezados, párrafos y listas */
+h2, h3, h4, p, ul, ol {
+    text-align: left;
+    margin-top: 1.5rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Estilos de encabezados (H2, H3, H4) */
+h2, h3, h4 {
+    color: var(--primary-color);
+    padding: 0;
+    border-radius: 0;
+}
+
+h2 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 1.2rem;
+}
+
+h3 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+h4 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-bottom: 0.8rem;
+}
+
 /* Estilo del encabezado */
 header {
     background-color: var(--header-background-color);
@@ -48,7 +135,7 @@ header {
     margin: 0 auto 2rem; /* Añadido un margen inferior */
 }
 
-header p{
+header p {
     margin: 0.3rem 0;
 }
 
@@ -67,17 +154,16 @@ header p{
 }
 
 .header-contact {
-  margin-top: 0.75em; /* Espacio para separar contacto */
+    margin-top: 0.75em; /* Espacio para separar contacto */
     margin-bottom: 0.75em;
 }
 
-
- .header-contact a {
-  color: var(--header-text-color); /* Correos en color blanco */
+.header-contact a {
+    color: var(--header-text-color); /* Correos en color blanco */
 }
 
- .header-contact a:hover {
-  text-decoration: underline;
+.header-contact a:hover {
+    text-decoration: underline;
 }
 
 /* Estilo del botón de WhatsApp */
@@ -103,82 +189,6 @@ header p{
     margin-right: 0px;
 }
 
-
-
-h2, h3, h4, p, ul, ol {
-    text-align: left; /* Alinea el *texto* a la izquierda */
-    margin-top: 1.5rem;
-    width: 80%;       /* Define un ancho máximo */
-    margin-left: auto;  /* Centra el bloque horizontalmente */
-    margin-right: auto; /* Centra el bloque horizontalmente */
-}
-
-/* Estilo de los encabezados */
-h2 {
-    color: var(--primary-color); /* Color del texto */
-    padding: 0; /* Eliminar padding */
-    border-radius: 0; /* Eliminar bordes redondeados */
-    font-size: 2.2rem; /* Ajusta el tamaño */
-    font-weight: 700;
-    margin-bottom: 1.2rem;
-}
-
-h3 {
-    color: var(--primary-color); /* Color del texto */
-    padding: 0; /* Eliminar padding */
-    border-radius: 0; /* Eliminar bordes redondeados */
-        font-size: 1.7rem;
-        font-weight: 700;
-        margin-bottom: 1rem;
-}
-
-h4 {
-    color: var(--primary-color); /* Color del texto */
-    padding: 0; /* Eliminar padding */
-    border-radius: 0; /* Eliminar bordes redondeados */
-        font-size: 1.3rem;
-        font-weight: 600;
-        margin-bottom: 0.8rem;
-}
-
-/* Estilo de la imagen del logo */
-header img {
-    border-radius: 50%;
-    max-width: 150px;
-    margin: 10px auto;
-    display: block;
-}
-
-/* Estilo de los enlaces */
-a {
-    color: var(--link-color);
-    text-decoration: none;
-        transition: color 0.2s ease; /* Transición para el color */
-}
-
-a:hover {
-    color: var(--link-hover-color);
-    text-decoration: underline; /* Subrayar al pasar el mouse */
-}
-
-
-/* Estilo de los botones */
-button, .button {
-    background-color: var(--button-background-color);
-    color: #ffffff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-      transition: background-color 0.3s ease, transform 0.1s ease;
-}
-
-button:hover, .button:hover {
-    background-color: var(--button-hover-background-color);
-    transform: translateY(-2px); /* Sutil efecto al pasar el mouse */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sutil sombra al pasar el mouse */
-}
-
 /* Estilo de los detalles */
 details {
     background-color: var(--details-background-color);
@@ -194,28 +204,9 @@ summary {
     cursor: pointer;
 }
 
-
-
-/* Estilo de los párrafos y texto */
-p {
-    font-size: 1.1rem;
-    line-height: 1.7;
-    margin-bottom: 1.5rem;
-}
-
-/* Estilo de las listas */
-ul, ol {
-  margin-left: 2rem;
-    margin-bottom: 1rem;
-  padding-left: 1rem;
-}
-
-li {
-  margin-bottom: 0.5rem;
-}
-
+/* Animacion Portfolio */
 /* Asegurarse de que no haya fondo en elementos h2 */
- h2 {
+h2 {
     background-color: transparent !important;
     border: none !important;
     box-shadow: none !important;
@@ -223,16 +214,17 @@ li {
 }
 
 .portfolio-section {
-  position: relative; /* Para la animación */
-  transition: opacity 0.3s ease, transform 0.3s ease;
+    position: relative; /* Para la animación */
+    transition: opacity 0.3s ease, transform 0.3s ease;
     opacity: 0;
     transform: translateY(20px); /* Opcional: Desplazar un poco hacia abajo */
 }
 
-    /* padding para el texto dentro de las secciones */
-  main > section > div {
+/* padding para el texto dentro de las secciones */
+main > section > div {
     padding: 0 1em;
-  }
+}
+
 .portfolio-section.revealed {
     opacity: 1;
     transform: translateY(0);
@@ -243,8 +235,8 @@ main > section {
     padding: 1.5rem;
     background-color: white; /* Añade un fondo blanco a las secciones */
     border-radius: 10px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sutil sombra */
-      position: relative; /* Para posicionamiento relativo */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sutil sombra */
+    position: relative; /* Para posicionamiento relativo */
     overflow: hidden; /* Asegura que las secciones se vean correctamente */
 }
 
