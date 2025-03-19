@@ -9,7 +9,7 @@
 
 /* Estilos para cada elemento de la galería */
 .image-gallery-item {
-    width: 30%;                    /* Each item takes up 30% */
+    width: 60%;                    /* Each item takes up 30% */
     display: flex;               /* Center image if it's shorter */
     justify-content: center;       /* Horizontal centering */
 }
