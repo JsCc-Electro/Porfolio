@@ -51,14 +51,14 @@ Technology used: Python, Wi?, Raspberry, ESP32, Inkscape.
 - Implementation of a 5G network using srsRAN, ZMQ and Open5GS.
 - Evaluated performance, bandwidth, latency and capacity to handle concurrent users.
 - Scalability and flexibility analysis.
-Technology used: Linux, Python, IP Addressing, Open5gs and srsRAN.
+- Technology used: Linux, Python, IP Addressing, Open5gs and srsRAN.
 
 - [Project Guide](https://github.com/JsCc-Electro/5G-SA-Network-Open5gs-srsRAN)
 
 **Temperature control in liquids**
 - Temperature control, monitoring and stabilization.
 - Implementation of two Arduinos, as data acquisition card and PID control respectively.
-Technology used: C, Arduino uno, LabView, Digital Dimmer.
+- Technology used: C, Arduino uno, LabView, Digital Dimmer.
 
 <details>
   <summary>Project Infographic</summary>
