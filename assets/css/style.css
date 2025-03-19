@@ -2,18 +2,20 @@
 
 /* Colores principales */
 :root {
-    --primary-color: #003366;
-    --secondary-color: #0066cc;
-    --background-color: #f8f9fa; /* Ajustado para Bootstrap */
-    --text-color: #495057;    /* Ajustado para Bootstrap */
-    --link-color: #007bff;    /* Ajustado para Bootstrap primary */
-    --link-hover-color: #0056b3;/* Ajustado para Bootstrap */
-    --header-background-color: #003366;
-    --header-text-color: #ffffff;
-    --footer-background-color: #003366;
-    --footer-text-color: #ffffff;
-    --details-background-color: #e9ecef; /* Ajustado para Bootstrap */
-    --details-border-color: #ced4da;  /* Ajustado para Bootstrap */
+    --primary-color: #003366; /* Azul oscuro */
+    --secondary-color: #0066cc; /* Azul claro */
+    --background-color: #f4f4f4; /* Fondo claro */
+    --text-color: #333333; /* Texto oscuro */
+    --link-color: #0066cc; /* Enlaces */
+    --link-hover-color: #004499; /* Enlaces al pasar el mouse */
+    --header-background-color: #003366; /* Fondo del encabezado */
+    --header-text-color: #ffffff; /* Texto del encabezado */
+    --footer-background-color: #003366; /* Fondo del pie de página */
+    --footer-text-color: #ffffff; /* Texto del pie de página */
+    --button-background-color: #0066cc; /* Fondo de los botones */
+    --button-hover-background-color: #004499; /* Fondo de los botones al pasar el mouse */
+    --details-background-color: #e0e0e0; /* Fondo de los detalles */
+    --details-border-color: #cccccc; /* Borde de los detalles */
 }
 
 /* Partículas (Mantén este bloque si lo usas) */
@@ -174,13 +176,13 @@ button:hover, .button:hover {
 
 
 
-/* Details */
+/* Estilo de los detalles */
 details {
     background-color: var(--details-background-color);
-    border: 0.0625rem solid var(--details-border-color);
-    padding: 0.625rem;
-    margin-bottom: 1.25rem;
-    border-radius: 0.3125rem;
+    border: 1px solid var(--details-border-color);
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
 }
 
 summary {
@@ -233,16 +235,15 @@ main > section > div {
 }
 
 main > section {
-    margin-bottom: 2.1875rem;
+    margin-bottom: 3.5rem;
     padding: 1.5rem;
-    background-color: white;
-    border-radius: 0.625rem;
-    box-shadow: 0 0.25rem 0.375rem rgba(0, 0, 0, 0.1);
-    position: relative;
-    overflow: hidden;
+    background-color: white; /* Añade un fondo blanco a las secciones */
+    border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sutil sombra */
+      position: relative; /* Para posicionamiento relativo */
+    overflow: hidden; /* Asegura que las secciones se vean correctamente */
 }
 
-/* Viewport Overlay (Mantén si lo necesitas) */
 .viewport-overlay {
     position: fixed;
     bottom: 0;
