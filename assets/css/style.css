@@ -139,7 +139,7 @@ header {
     padding: 1rem;
     text-align: center; /* Centrado de texto en el header */
     border-radius: 10px;
-    width: 100%; /* Ocupa el 100% del ancho */
+    width: 50%; /* Ocupa el 100% del ancho */
     max-width: 600px; /* Limita el tamaño máximo del header */
     margin: 0 auto 2rem; /* Centramos el header con auto márgenes en los lados */
 }
