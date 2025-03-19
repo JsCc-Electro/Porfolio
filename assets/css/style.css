@@ -20,20 +20,21 @@
 
 /* Reset Box-sizing */
 html {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
+
 *, *:before, *:after {
-  box-sizing: inherit;
+    box-sizing: inherit;
 }
 
 /* Fondo particles.js */
 #particles-js {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: -1;
 }
 
 /* Estilos globales */
@@ -42,6 +43,12 @@ body {
     color: var(--text-color);
     font-family: Arial, sans-serif;
     line-height: 1.6;
+    display: flex; /* Usamos flexbox */
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+    min-height: 100vh; /* Asegura que la altura mínima sea del 100% del viewport */
+    margin: 0; /* Elimina márgenes predeterminados */
+    text-align: center; /* Alinea el texto al centro por defecto */
 }
 
 /* Estilos de enlaces */
@@ -49,6 +56,7 @@ a {
     color: var(--link-color);
     text-decoration: none;
     transition: color 0.2s ease;
+    text-align: center; /* Alinea los enlaces al centro */
 }
 
 a:hover {
@@ -128,33 +136,34 @@ h4 {
 header {
     background-color: var(--header-background-color);
     color: var(--header-text-color);
-    padding: 1rem; /* Menos padding */
-    text-align: center;
+    padding: 1rem;
+    text-align: center; /* Centrado de texto en el header */
     border-radius: 10px;
-    max-width: 600px;
-    margin: 0 auto 2rem; /* Añadido un margen inferior */
+    width: 100%; /* Ocupa el 100% del ancho */
+    max-width: 600px; /* Limita el tamaño máximo del header */
+    margin: 0 auto 2rem; /* Centramos el header con auto márgenes en los lados */
 }
 
-header p {
-    margin: 0.3rem 0;
-}
-
+/* Contenedor de contenido en el encabezado */
 .header-content {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center; /* Alinea los elementos de la cabecera al centro */
+    justify-content: center;
 }
 
+/* Estilos de la imagen en el encabezado */
 .header-content img {
-    width: 120px; /* Ajusta el tamaño según sea necesario */
-    border-radius: 50%; /* Para que la imagen sea circular */
-    margin-bottom: 1rem; /* Añadido margen inferior */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sutil sombra */
-    border: 3px solid white; /* Borde blanco */
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border: 3px solid white;
 }
 
+/* Estilo de los botones de contacto */
 .header-contact {
-    margin-top: 0.75em; /* Espacio para separar contacto */
+    margin-top: 0.75em;
     margin-bottom: 0.75em;
 }
 
@@ -196,16 +205,14 @@ details {
     padding: 10px;
     margin-bottom: 20px;
     border-radius: 5px;
-}
-
-summary {
-    color: var(--primary-color);
-    font-weight: bold;
-    cursor: pointer;
+    text-align: left;
+    width: 100%;
+    max-width: 800px; /* Limita el tamaño máximo de los detalles */
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Animacion Portfolio */
-/* Asegurarse de que no haya fondo en elementos h2 */
 h2 {
     background-color: transparent !important;
     border: none !important;
@@ -214,7 +221,7 @@ h2 {
 }
 
 .portfolio-section {
-    position: relative; /* Para la animación */
+    position: relative;
     transition: opacity 0.3s ease, transform 0.3s ease;
     opacity: 0;
     transform: translateY(20px); /* Opcional: Desplazar un poco hacia abajo */
@@ -233,13 +240,18 @@ main > section > div {
 main > section {
     margin-bottom: 3.5rem;
     padding: 1.5rem;
-    background-color: white; /* Añade un fondo blanco a las secciones */
+    background-color: white;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sutil sombra */
-    position: relative; /* Para posicionamiento relativo */
-    overflow: hidden; /* Asegura que las secciones se vean correctamente */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    max-width: 800px; /* Limita el tamaño máximo de las secciones */
+    margin-left: auto;
+    margin-right: auto;
 }
 
+/* Vista de superposición en la parte inferior */
 .viewport-overlay {
     position: fixed;
     bottom: 0;
