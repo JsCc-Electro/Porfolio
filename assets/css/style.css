@@ -116,11 +116,14 @@ h2 {
 }
 
 h3 {
-    color: var(--primary-color);
-    font-size: 1.5rem;
-    font-weight: 700;
-    margin-bottom: 0.75rem;
+    color: var(--primary-color); /* Color del texto */
+    padding: 0; /* Eliminar padding */
+    border-radius: 0; /* Eliminar bordes redondeados */
+        font-size: 1.7rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
 }
+
 
 h4 {
     color: var(--primary-color);
