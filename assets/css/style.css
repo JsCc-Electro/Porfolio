@@ -106,8 +106,11 @@ header p{
 
 
 h2, h3, h4, p, ul, ol {
-    text-align: center; /* Alinear a la izquierda */
-    margin-top: 1.5rem; /* Ajusta el espacio superior */
+    text-align: left; /* Alinea el *texto* a la izquierda */
+    margin-top: 1.5rem;
+    width: 80%;       /* Define un ancho máximo */
+    margin-left: auto;  /* Centra el bloque horizontalmente */
+    margin-right: auto; /* Centra el bloque horizontalmente */
 }
 
 /* Estilo de los encabezados */
