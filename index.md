@@ -152,17 +152,18 @@
           <li>Processed images to obtain area measurements and detect possible anomalies.</li>
         </ul>
         <!-- Container for the images -->
-        <div class="row">
-          <div class="col-md-4">
-            <img src="assets/img/DJI_0434.JPG" alt="Drone image 1" class="img-fluid">
-          </div>
-          <div class="col-md-4">
-            <img src="assets/img/DJI_0495.JPG" alt="Drone image 2" class="img-fluid">
-          </div>
-          <div class="col-md-4">
-            <img src="assets/img/DJI_0597.JPG" alt="Drone image 3" class="img-fluid">
-          </div>
-        </div>
+        <!-- Contenedor para las imágenes -->
+<div class="drone-images-container">
+  <div class="drone-image-column">
+    <img src="assets/img/DJI_0434.JPG" alt="Imagen de drone 1" class="img-fluid">
+  </div>
+  <div class="drone-image-column">
+    <img src="assets/img/DJI_0495.JPG" alt="Imagen de drone 2" class="img-fluid">
+  </div>
+  <div class="drone-image-column">
+    <img src="assets/img/DJI_0597.JPG" alt="Imagen de drone 3">
+  </div>
+</div>
       </details>
 
   <details>
