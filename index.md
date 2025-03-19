@@ -25,7 +25,7 @@
   </div>
 </header>
 
-  <main class="container py-5">
+  <main class="container py-3 py-md-5">
     <section id="AboutMe" class="mb-5">
       <h2>About Me</h2>
       <p>
