@@ -105,11 +105,14 @@ h2, h3, h4, p, ul, ol {
     margin-top: 1.5rem; /* Ajusta el espacio superior */
 }
 
+/* Estilo de los encabezados */
 h2 {
-    color: var(--primary-color);
-    font-size: 2rem;
+    color: var(--primary-color); /* Color del texto */
+    padding: 0; /* Eliminar padding */
+    border-radius: 0; /* Eliminar bordes redondeados */
+    font-size: 2.2rem; /* Ajusta el tamaño */
     font-weight: 700;
-    margin-bottom: 1rem;
+    margin-bottom: 1.2rem;
 }
 
 h3 {
