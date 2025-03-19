@@ -8,24 +8,11 @@
     --text-color: #333333; /* Texto oscuro */
     --link-color: #0066cc; /* Enlaces */
     --link-hover-color: #004499; /* Enlaces al pasar el mouse */
-    --header-background-color: #003366; /* Fondo del encabezado */
-    --header-text-color: #ffffff; /* Texto del encabezado */
-    --footer-background-color: #003366; /* Fondo del pie de página */
-    --footer-text-color: #ffffff; /* Texto del pie de página */
+    --header-color: #003366; /* Color de fondo y texto del header (UNIFICADO) */
     --button-background-color: #0066cc; /* Fondo de los botones */
     --button-hover-background-color: #004499; /* Fondo de los botones al pasar el mouse */
     --details-background-color: #e0e0e0; /* Fondo de los detalles */
     --details-border-color: #cccccc; /* Borde de los detalles */
-}
-
-/* Partículas (Mantén este bloque si lo usas) */
-#particles-js {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  z-index: -1;
 }
 
 /* Body */
@@ -38,13 +25,13 @@ body {
 
 /* Header */
 header {
-    background-color: var(--header-background-color);
-    color: var(--header-text-color);
-    padding: 1rem; /* Menos padding */
+    background-color: var(--header-color);
+    color: #ffffff;
+    padding: 1rem;
     text-align: center;
     border-radius: 10px;
-    max-width: 600px;
-    margin: 0 auto 2rem; /* Añadido un margen inferior */
+    /* max-width: 600px; Eliminado, usa el contenedor de Bootstrap */
+    /* margin: 0 auto 2rem;  Eliminado, usa las clases de Bootstrap */
 }
 
 header p {
@@ -71,7 +58,7 @@ header p {
 }
 
 .header-contact a {
-    color: var(--header-text-color);
+    color: var(--header-color); /* Usa la variable */
 }
 
 .header-contact a:hover {
@@ -107,12 +94,12 @@ h2, h3, h4, p, ul, ol {
     margin-top: 1.5rem; /* Ajusta el espacio superior */
 }
 
-/* Estilo de los encabezados */
+/* Estilo de los encabezados (USANDO CALC Y REM) */
 h2 {
     color: var(--primary-color); /* Color del texto */
     padding: 0; /* Eliminar padding */
     border-radius: 0; /* Eliminar bordes redondeados */
-    font-size: 5vw; /* Ajusta el tamaño */
+    font-size: calc(1.5rem + 3vw); /* Ajusta el tamaño con calc() */
     font-weight: 700;
     margin-bottom: 1.2rem;
 }
@@ -121,19 +108,18 @@ h3 {
     color: var(--primary-color); /* Color del texto */
     padding: 0; /* Eliminar padding */
     border-radius: 0; /* Eliminar bordes redondeados */
-        font-size: 1.7rem;
-        font-weight: 700;
-        margin-bottom: 1rem;
+    font-size: calc(1.2rem + 1.5vw); /* Ajusta el tamaño con calc() */
+    font-weight: 700;
+    margin-bottom: 1rem;
 }
-
 
 h4 {
     color: var(--primary-color); /* Color del texto */
     padding: 0; /* Eliminar padding */
     border-radius: 0; /* Eliminar bordes redondeados */
-        font-size: 1.3rem;
-        font-weight: 600;
-        margin-bottom: 0.8rem;
+    font-size: calc(1rem + 1vw); /* Ajusta el tamaño con calc() */
+    font-weight: 600;
+    margin-bottom: 0.8rem;
 }
 
 /* Estilo de la imagen del logo */
@@ -143,7 +129,6 @@ header img {
     margin: 10px auto;
     display: block;
 }
-
 
 /* Links */
 a {
@@ -165,7 +150,7 @@ button, .button {
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 5px;
-      transition: background-color 0.3s ease, transform 0.1s ease;
+    transition: background-color 0.3s ease, transform 0.1s ease;
 }
 
 button:hover, .button:hover {
@@ -173,8 +158,6 @@ button:hover, .button:hover {
     transform: translateY(-2px); /* Sutil efecto al pasar el mouse */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sutil sombra al pasar el mouse */
 }
-
-
 
 /* Estilo de los detalles */
 details {
@@ -193,7 +176,7 @@ summary {
 
 /* Paragraphs and Text */
 p {
-    font-size: 1rem;
+    font-size: calc(0.9rem + 0.2vw); /* Ajusta el tamaño con calc() */
     line-height: 1.7;
     margin-bottom: 1.5rem;
 }
@@ -234,28 +217,17 @@ main > section > div {
     transform: translateY(0);
 }
 
-
-
 main > section {
     margin-bottom: 3.5rem;
     padding: 1.5rem;
     background-color: white; /* Añade un fondo blanco a las secciones */
     border-radius: 10px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sutil sombra */
-      position: relative; /* Para posicionamiento relativo */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sutil sombra */
+    position: relative; /* Para posicionamiento relativo */
     overflow: hidden; /* Asegura que las secciones se vean correctamente */
 }
 
-.viewport-overlay {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 20vh;
-    background: linear-gradient(to top, rgba(255, 255, 255, 0.9), transparent);
-    pointer-events: none;
-    z-index: 10;
-}
+/* viewport-overlay: Ya no es necesario si no lo usas */
 
 /* Estilos generales que se aplican a todos los tamaños de pantalla */
 body {
@@ -265,87 +237,113 @@ body {
   line-height: 1.6;
 }
 
-header {
-  background-color: #003366;
-  padding: 1rem;
-  text-align: center;
+/* Usa las clases de Bootstrap para el contenedor y el texto centrado */
+/* .container {
+    max-width: 960px;  Ajusta el ancho máximo según sea necesario
+    margin: 0 auto;
+    padding: 1rem;
+} */
+
+/*Media query para dispositivos extra pequeños (móviles)*/
+@media (max-width: 576px) {
+    body {
+        background-color: #e0e0e0;
+    }
+
+    header {
+        padding: 0.5rem;
+    }
+
+    h2 {
+        font-size: calc(1.2rem + 4vw); /* Tamaños ajustados */
+    }
+
+    h3 {
+        font-size: calc(1rem + 2vw); /* Tamaños ajustados */
+    }
+
+    button,
+    .button {
+        padding: 8px 15px;
+    }
+
+    a {
+        font-size: 0.9rem;
+    }
 }
 
-h1 {
-  font-size: 2rem;
-}
+/* Media query para dispositivos pequeños (teléfonos horizontales y dispositivos más grandes) */
+@media (min-width: 576px) {
+    header {
+        padding: 1rem;
+    }
 
-.button {
-  background-color: #0066cc;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  text-align: center;
-}
+    h2 {
+        font-size: calc(1.3rem + 3vw); /* Tamaños ajustados */
+    }
 
-a {
-  color: #0066cc;
-  text-decoration: none;
-}
+    h3 {
+        font-size: calc(1.1rem + 1.8vw); /* Tamaños ajustados */
+    }
 
-/* Media query para dispositivos pequeños (móviles) */
-@media (max-width: 600px) {
-  body {
-    background-color: #e0e0e0; /* Cambia el fondo en pantallas pequeñas */
-  }
+    button,
+    .button {
+        padding: 10px 20px;
+    }
 
-  header {
-    background-color: #1e90ff; /* Cambia el color de fondo del header */
-    padding: 0.5rem; /* Menos padding en pantallas pequeñas */
-  }
-
-  h1 {
-    font-size: 1.5rem; /* Ajusta el tamaño de la fuente para móviles */
-  }
-
-  .button {
-    padding: 8px 15px; /* Reduce el tamaño de los botones */
-  }
-
-  a {
-    font-size: 0.9rem; /* Reduce el tamaño de los enlaces */
-  }
+    a {
+        font-size: 1rem;
+    }
 }
 
 /* Media query para dispositivos medianos (tabletas) */
-@media (min-width: 601px) and (max-width: 900px) {
-  header {
-    padding: 1rem; /* Mantén el padding original en tabletas */
-  }
+@media (min-width: 768px) {
+    header {
+        padding: 1.5rem;
+    }
 
-  h1 {
-    font-size: 1.8rem; /* Ajusta el tamaño de la fuente para tabletas */
-  }
+    h2 {
+        font-size: calc(1.4rem + 2.5vw); /* Tamaños ajustados */
+    }
 
-  .button {
-    padding: 10px 20px; /* Tamaño de botón original en tabletas */
-  }
+    h3 {
+        font-size: calc(1.2rem + 1.5vw); /* Tamaños ajustados */
+    }
+
+    button,
+    .button {
+        padding: 10px 20px;
+    }
+
+    a {
+        font-size: 1rem;
+    }
 }
 
-/* Media query para dispositivos grandes (pantallas de escritorio) */
-@media (min-width: 901px) {
-  body {
-    background-color: #f4f4f4; /* Vuelve al color original del fondo */
-  }
+/*Media query para dispositivos grandes (ordenadores de sobremesa y dispositivos más grandes)*/
+@media (min-width: 992px) {
+    body {
+        background-color: #f4f4f4;
+    }
 
-  header {
-    background-color: #003366; /* Color de fondo del header */
-    padding: 2rem; /* Más padding en pantallas grandes */
-  }
+    header {
+        padding: 2rem;
+    }
 
-  h1 {
-    font-size: 2.2rem; /* Fuente más grande en pantallas grandes */
-  }
+    h2 {
+        font-size: calc(1.6rem + 2vw); /* Tamaños ajustados */
+    }
 
-  .button {
-    padding: 12px 25px; /* Botones más grandes */
-  }
+    h3 {
+        font-size: calc(1.3rem + 1vw); /* Tamaños ajustados */
+    }
+
+    button,
+    .button {
+        padding: 12px 25px;
+    }
+
+    a {
+        font-size: 1rem;
+    }
 }
-
-
