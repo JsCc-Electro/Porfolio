@@ -126,19 +126,22 @@ h3 {
 
 
 h4 {
-    color: var(--primary-color);
-    font-size: 1.2rem;
-    font-weight: 600;
-    margin-bottom: 0.5rem;
+    color: var(--primary-color); /* Color del texto */
+    padding: 0; /* Eliminar padding */
+    border-radius: 0; /* Eliminar bordes redondeados */
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin-bottom: 0.8rem;
 }
 
-/* Image */
+/* Estilo de la imagen del logo */
 header img {
     border-radius: 50%;
-    max-width: 9.375rem;
-    margin: 0.625rem auto;
+    max-width: 150px;
+    margin: 10px auto;
     display: block;
 }
+
 
 /* Links */
 a {
