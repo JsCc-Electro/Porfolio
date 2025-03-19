@@ -225,14 +225,16 @@ h2 {
     transform: translateY(1.25rem);
 }
 
+main > section > div {
+  padding: 0 1em;
+}
+
 .portfolio-section.revealed {
     opacity: 1;
     transform: translateY(0);
 }
 
-main > section > div {
-  padding: 0 1em;
-}
+
 
 main > section {
     margin-bottom: 3.5rem;
