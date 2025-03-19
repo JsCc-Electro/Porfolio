@@ -142,6 +142,8 @@ header {
     width: 50%; /* Ocupa el 100% del ancho */
     max-width: 600px; /* Limita el tamaño máximo del header */
     margin: 0 auto 2rem; /* Centramos el header con auto márgenes en los lados */
+    max-height: 300px; /* Set a maximum height */
+    overflow: auto; /* Use scrollbars if content exceeds the height */
 }
 
 /* Contenedor de contenido en el encabezado */
