@@ -46,7 +46,7 @@ header {
 }
 
 header p {
-    margin: 0.5rem 0;
+    margin: 0.3rem 0;
 }
 
 .header-content {
@@ -56,11 +56,11 @@ header p {
 }
 
 .header-content img {
-    width: 150px;
-    border-radius: 50%;
-    margin-bottom: 1rem;
-    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.2);
-    border: 0.1875rem solid white;
+    width: 120px; /* Ajusta el tamaño según sea necesario */
+    border-radius: 50%; /* Para que la imagen sea circular */
+    margin-bottom: 1rem; /* Añadido margen inferior */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sutil sombra */
+    border: 3px solid white; /* Borde blanco */
 }
 
 .header-contact {
@@ -76,16 +76,16 @@ header p {
     text-decoration: underline;
 }
 
-/* WhatsApp Button */
+/* Estilo del botón de WhatsApp */
 .whatsapp-button {
     display: flex;
     align-items: center;
     background-color: #25d366;
     color: white;
-    padding: 0.0625rem 0.125rem;
-    border-radius: 0.3125rem;
+    padding: 1px 2px;
+    border-radius: 5px;
     text-decoration: none;
-    margin-top: 0.625rem;
+    margin-top: 10px;
     transition: background-color 0.3s ease;
 }
 
@@ -94,15 +94,15 @@ header p {
 }
 
 .whatsapp-icon {
-    width: 1.875rem;
-    height: 1.875rem;
-    margin-right: 0;
+    width: 30px;
+    height: 30px;
+    margin-right: 0px;
 }
 
 /* Headings */
 h2, h3, h4, p, ul, ol {
-    text-align: left;
-    margin-top: 1.5rem;
+    text-align: left; /* Alinear a la izquierda */
+    margin-top: 1.5rem; /* Ajusta el espacio superior */
 }
 
 h2 {
