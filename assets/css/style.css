@@ -1,271 +1,232 @@
 /* Archivo: assets/css/custom.css */
 
-/* Colores principales */
+/* Colores principales modernizados (Vibe Tech/AI) */
 :root {
-    --primary-color: #003366; /* Azul oscuro */
-    --secondary-color: #0066cc; /* Azul claro */
-    --background-color: #f4f4f4; /* Fondo claro */
-    --text-color: #333333; /* Texto oscuro */
-    --link-color: #0066cc; /* Enlaces */
-    --link-hover-color: #004499; /* Enlaces al pasar el mouse */
-    --header-background-color: #003366; /* Fondo del encabezado */
-    --header-text-color: #ffffff; /* Texto del encabezado */
-    --footer-background-color: #003366; /* Fondo del pie de página */
-    --footer-text-color: #ffffff; /* Texto del pie de página */
-    --button-background-color: #0066cc; /* Fondo de los botones */
-    --button-hover-background-color: #004499; /* Fondo de los botones al pasar el mouse */
-    --details-background-color: #e0e0e0; /* Fondo de los detalles */
-    --details-border-color: #cccccc; /* Borde de los detalles */
+    --primary-color: #0F172A; /* Slate oscuro muy elegante */
+    --secondary-color: #2563EB; /* Azul tech vibrante */
+    --background-color: #F8FAFC; /* Gris súper claro y limpio */
+    --text-color: #334155; /* Texto principal suave para leer */
+    --text-muted: #64748B; /* Texto secundario */
+    --link-color: #2563EB; 
+    --link-hover-color: #1D4ED8; 
+    --header-background-color: #ffffff; /* Header blanco limpio */
+    --header-text-color: #0F172A;
+    --card-bg: #ffffff;
+    --border-color: #E2E8F0;
 }
 
 /* Reset Box-sizing */
-html {
-    box-sizing: border-box;
-}
-
-*, *:before, *:after {
-    box-sizing: inherit;
-}
+html { box-sizing: border-box; }
+*, *:before, *:after { box-sizing: inherit; }
 
 /* Fondo particles.js */
 #particles-js {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
+    position: fixed; /* Fixed para que siga al hacer scroll */
+    top: 0; left: 0; width: 100%; height: 100vh;
     z-index: -1;
+    background-color: var(--background-color);
 }
 
 /* Estilos globales */
 body {
-    background-color: var(--background-color);
+    background-color: transparent; /* Permite ver particles */
     color: var(--text-color);
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    display: flex; /* Usamos flexbox */
-    justify-content: center; /* Centrado horizontal */
-    align-items: center; /* Centrado vertical */
-    min-height: 100vh; /* Asegura que la altura mínima sea del 100% del viewport */
-    margin: 0; /* Elimina márgenes predeterminados */
-    text-align: center; /* Alinea el texto al centro por defecto */
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    line-height: 1.7;
+    margin: 0;
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 850px;
+    z-index: 1;
 }
 
 /* Estilos de enlaces */
 a {
     color: var(--link-color);
     text-decoration: none;
-    transition: color 0.2s ease;
-    text-align: center; /* Alinea los enlaces al centro */
+    transition: all 0.2s ease;
+    font-weight: 500;
+}
+a:hover { color: var(--link-hover-color); }
+
+/* Estilo del encabezado (Glassmorphism ligero) */
+header {
+  background-color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+  color: var(--header-text-color);
+  padding: 2.5rem 2rem;
+  border-radius: 16px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+  margin-bottom: 2.5rem;
+  text-align: center;
+  border: 1px solid rgba(255,255,255,0.4);
 }
 
-a:hover {
-    color: var(--link-hover-color);
-    text-decoration: underline;
+.profile-img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  border: 4px solid white;
 }
 
-/* Estilos de botones */
-button, .button {
-    background-color: var(--button-background-color);
-    color: #ffffff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s ease, transform 0.1s ease;
+.site-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0.5rem 0;
+    color: var(--primary-color);
+    letter-spacing: -0.025em;
 }
 
-button:hover, .button:hover {
-    background-color: var(--button-hover-background-color);
-    transform: translateY(-2px);
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-}
-
-/* Estilos de párrafos y listas */
-p {
-    font-size: 1.1rem;
-    line-height: 1.7;
+.site-subtitle {
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+    font-weight: 500;
     margin-bottom: 1.5rem;
 }
 
-ul, ol {
-    margin-left: 2rem;
+/* Redes Sociales en el Header */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
+.social-links a {
+    color: var(--text-muted);
+    font-size: 1.8rem;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.social-links a:hover {
+    color: var(--secondary-color);
+    transform: translateY(-3px);
+}
+
+/* Estilos de encabezados (H2, H3) dentro del contenido */
+h2 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-top: 2rem;
+}
+
+/* Tarjetas de Sección (Experiencia, Proyectos) */
+main > section {
+    background-color: var(--card-bg);
+    padding: 2rem 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    margin-bottom: 2rem;
+    border: 1px solid var(--border-color);
+}
+
+/* Animación de scroll */
+.portfolio-section {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.portfolio-section.revealed {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Detalles / Acordeones (La experiencia antigua) */
+details {
+    background-color: var(--background-color);
+    border: 1px solid var(--border-color);
+    padding: 1rem;
     margin-bottom: 1rem;
-    padding-left: 1rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+details:hover {
+    border-color: #cbd5e1;
+}
+
+summary {
+    font-weight: 600;
+    color: var(--primary-color);
+    cursor: pointer;
+    list-style: none; /* Quita la flecha por defecto en algunos navegadores */
+    display: flex;
+    align-items: center;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+summary::before {
+  content: '▶';
+  font-size: 0.8em;
+  color: var(--secondary-color);
+  margin-right: 10px;
+  transition: transform 0.2s ease;
+}
+
+details[open] summary::before {
+  transform: rotate(90deg);
+}
+
+details[open] {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+
+/* Listas y viñetas */
+ul {
+    padding-left: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 li {
     margin-bottom: 0.5rem;
 }
 
-/* Estilos comunes para encabezados, párrafos y listas */
-h2, h3, h4, p, ul, ol {
-    text-align: left;
-    margin-top: 1.5rem;
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* Estilos de encabezados (H2, H3, H4) */
-h2, h3, h4 {
+strong {
     color: var(--primary-color);
+}
+
+/* Botón descargar */
+.downloads {
+    list-style: none;
     padding: 0;
-    border-radius: 0;
+    margin-top: 2rem;
 }
 
-h2 {
-    font-size: 2.2rem;
-    font-weight: 700;
-    margin-bottom: 1.2rem;
-}
-
-h3 {
-    font-size: 1.7rem;
-    font-weight: 700;
-    margin-bottom: 1rem;
-}
-
-h4 {
-    font-size: 1.3rem;
+.btn {
+    display: inline-block;
+    background-color: var(--secondary-color);
+    color: white !important;
+    padding: 10px 24px;
+    border-radius: 8px;
     font-weight: 600;
-    margin-bottom: 0.8rem;
+    transition: all 0.3s ease;
 }
 
-/* Estilo del encabezado */
-header {
-  background-color: var(--header-background-color);
-  color: var(--header-text-color);
-  padding: 1rem;
-  text-align: center; /* Removed, we'll use flexbox for centering */
-  border-radius: 10px;
-  max-width: 700px; /* You can adjust this */
-  margin: 0 auto 2rem;
-}
-
-header p {
-  margin: 0.3rem 0;
-}
-
-.header-content {
-  display: flex;
-  flex-direction: column; /* Stack items vertically */
-  align-items: center;  /* Center items horizontally */
-  text-align: center;
-}
-
-.header-content img {
-  width: 120px;
-  border-radius: 50%;
-  margin-bottom: 1rem;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  border: 3px solid white;
-}
-
-/* Estilo de los botones de contacto */
-.header-contact {
-  display: flex;       /* Use Flexbox for centering */
-  flex-direction: column; /* Stack vertically */
-  align-items: center;   /* Center horizontally */
-  margin-top: 0.75em;
-  margin-bottom: 0.75em;
-  white-space: nowrap;  /* Prevent wrapping */
-}
-
-.header-contact a {
-  color: var(--header-text-color);
-  margin: 0 0.5rem; /* Add some horizontal space between the links */
-}
-
-.header-contact a:hover {
-  text-decoration: underline;
-}
-
-
-/* Estilo del botón de WhatsApp */
-.whatsapp-button {
-    display: flex;
-    align-items: center;
-    background-color: #25d366;
-    color: white;
-    padding: 1px 2px;
-    border-radius: 5px;
+.btn:hover {
+    background-color: var(--link-hover-color);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
     text-decoration: none;
-    margin-top: 10px;
-    transition: background-color 0.3s ease;
-}
-
-.whatsapp-button:hover {
-    background-color: #1ebc53;
-}
-
-.whatsapp-icon {
-    width: 30px;
-    height: 30px;
-    margin-right: 0px;
-}
-
-/* Estilo de los detalles */
-details {
-    background-color: var(--details-background-color);
-    border: 1px solid var(--details-border-color);
-    padding: 10px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    text-align: left;
-    width: 100%;
-    max-width: 800px; /* Limita el tamaño máximo de los detalles */
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* Animacion Portfolio */
-h2 {
-    background-color: transparent !important;
-    border: none !important;
-    box-shadow: none !important;
-    margin-top: 0 !important; /* Quita el margen superior */
-}
-
-.portfolio-section {
-    position: relative;
-    transition: opacity 0.3s ease, transform 0.3s ease;
-    opacity: 0;
-    transform: translateY(20px); /* Opcional: Desplazar un poco hacia abajo */
-}
-
-/* padding para el texto dentro de las secciones */
-main > section > div {
-    padding: 0 1em;
-}
-
-.portfolio-section.revealed {
-    opacity: 1;
-    transform: translateY(0);
-}
-
-main > section {
-    margin-bottom: 3.5rem;
-    padding: 1.5rem;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    max-width: 800px; /* Limita el tamaño máximo de las secciones */
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* Vista de superposición en la parte inferior */
-.viewport-overlay {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 20vh;
-    background: linear-gradient(to top, rgba(255, 255, 255, 0.9), transparent);
-    pointer-events: none;
-    z-index: 10;
 }
