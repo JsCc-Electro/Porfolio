@@ -65,10 +65,10 @@ Leading the technological modernization of the municipality by transforming manu
 ## 🎓 Education & Certifications
 
 - **Electronic Engineering** | *The University of Quindío* (Graduated Sep 2024).
-- **Introduction to Modern AI** | [cite_start]*Cisco Networking Academy* (Verified Credential, Feb 2026)[cite: 48, 65].
-- **Introduction to Data Science** | [cite_start]*Cisco Networking Academy* (Verified Credential, Feb 2026)[cite: 81, 89].
-- **Artificial Intelligence Bootcamp (Basic Level)** - 159 Hours | [cite_start]*MinTIC, U. de Antioquia & U. de Caldas* (Dec 2025)[cite: 6, 7, 8, 10].
-- **Diploma: AI Tools for the Public Sector** - 80 Hours | [cite_start]*MinTIC & Universidad de Cartagena* (Nov 2025)[cite: 72, 73].
+- **Introduction to Modern AI** | *Cisco Networking Academy* (Verified Credential, Feb 2026)[cite: 48, 65].
+- **Introduction to Data Science** | *Cisco Networking Academy* (Verified Credential, Feb 2026)[cite: 81, 89].
+- **Artificial Intelligence Bootcamp (Basic Level)** - 159 Hours | *MinTIC, U. de Antioquia & U. de Caldas* (Dec 2025)[cite: 6, 7, 8, 10].
+- **Diploma: AI Tools for the Public Sector** - 80 Hours | *MinTIC & Universidad de Cartagena* (Nov 2025)[cite: 72, 73].
 
 ---
-📫 **Let's Connect:** [LinkedIn Profile] | 📧 joshua-cardenas@outlook.com
+📫 **Let's Connect:** www.linkedin.com/in/joscardelectro | 📧 joshua-cardenas@outlook.com
