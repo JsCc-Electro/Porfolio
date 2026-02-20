@@ -12,13 +12,13 @@ Electronics Engineer transitioning into advanced Software Engineering, Artificia
 - **Soft Skills:** Problem solving, Self-learning, Presentation, Adaptability, Creativity, Management of time, Leadership.
 
 ## Education & Certifications
-- Electronic Engineer | The University of Quindío (License No. EC206-179481)
-- Certificate in RETIE Standard | Medellín (Registered in Act Book No. 0020240611)
-- Certificate in University Teaching and Didactics | Medellín (Registered in Act Book No. 0020240823)
-- Bootcamp: Inteligencia artificial Nivel Básico, 159 hours | MinTIC & IU Training (December 2025).
-- Diploma: Fortalecimiento de Habilidades y Herramientas de Inteligencia Artificial para el Sector Público, 80 hours | MinTIC & Universidad de Cartagena (November 2025).
-- Introduction to Modern AI | Cisco Networking Academy (Feb 16, 2026).
-- Introduction to Data Science | Cisco Networking Academy (Feb 03, 2026).
+- Electronic Engineer The University of Quindío (License No. EC206-179481)
+- Certificate in RETIE Standard Medellín (Registered in Act Book No. 0020240611)
+- Certificate in University Teaching and Didactics Medellín (Registered in Act Book No. 0020240823)
+- Bootcamp: Inteligencia artificial Nivel Básico, 159 hours MinTIC & IU Training (December 2025).
+- Diploma: Fortalecimiento de Habilidades y Herramientas de Inteligencia Artificial para el Sector Público, 80 hours MinTIC & Universidad de Cartagena (November 2025).
+- Introduction to Modern AI Cisco Networking Academy (Feb 16, 2026).
+- Introduction to Data Science Cisco Networking Academy (Feb 03, 2026).
 
 ## Work Experience
 
