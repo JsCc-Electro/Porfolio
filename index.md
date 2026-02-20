@@ -15,10 +15,10 @@ Electronics Engineer transitioning into advanced Software Engineering, Artificia
 - Electronic Engineer | The University of Quindío (License No. EC206-179481)
 - Certificate in RETIE Standard | Medellín (Registered in Act Book No. 0020240611)
 - Certificate in University Teaching and Didactics | Medellín (Registered in Act Book No. 0020240823)
-- [cite_start]Bootcamp: Inteligencia artificial Nivel Básico [cite: 7][cite_start], 159 hours [cite: 8] | [cite_start]MinTIC & IU Training (December 2025)[cite: 10].
-- [cite_start]Diploma: Fortalecimiento de Habilidades y Herramientas de Inteligencia Artificial para el Sector Público [cite: 72][cite_start], 80 hours [cite: 72] | [cite_start]MinTIC & Universidad de Cartagena (November 2025)[cite: 73].
-- Introduction to Modern AI | [cite_start]Cisco Networking Academy (Feb 16, 2026)[cite: 48, 65].
-- Introduction to Data Science | [cite_start]Cisco Networking Academy (Feb 03, 2026)[cite: 81, 89].
+- Bootcamp: Inteligencia artificial Nivel Básico, 159 hours | MinTIC & IU Training (December 2025).
+- Diploma: Fortalecimiento de Habilidades y Herramientas de Inteligencia Artificial para el Sector Público, 80 hours | MinTIC & Universidad de Cartagena (November 2025).
+- Introduction to Modern AI | Cisco Networking Academy (Feb 16, 2026).
+- Introduction to Data Science | Cisco Networking Academy (Feb 03, 2026).
 
 ## Work Experience
 
