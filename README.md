@@ -1,95 +1,74 @@
-# Data Engineer
-Electronics Engineer with experience in programming and data analysis, seeking to transition into the field of Data Science. Proficient in Python and analytical tools, with a background in multidisciplinary projects involving system control and performance evaluation. Passionate about using data to solve complex problems and drive innovation.
+# Hi, I'm Joshua S. Cárdenas C. 👋
 
-## Technical skills and interests
-- Languages: C/C++, Python, Javascript-Kotlin, HTML,
-- Libraries: C++ STL, Python Libraries, ReactJs
-- Web Dev Tools: Nodejs, VScode, Git, Github
-- Frameworks: ReactJs
-- Cloud/Databases:MongoDb, Firebase, Relational Database(mySql)
-- Relevant Courses: Cybersecurity, AWS, PMI, Matlab, LATEX, RETIE.
-- Areas of interest: Web design, Video game design, Research and Development.
-- Soft Skills: Problem solving, Self-learning, Presentation, Adaptability, Creativity, Management of time, Leadership.
+### Tech Lead | Software & AI Engineer | Electronics Engineer
 
-## Education
-- Ing, Electronic | The University of Quindío (_September 2024_)								       		
+Electronics Engineer transitioning into advanced Software Engineering, Artificial Intelligence, and Data Science. I combine a strong background in hardware, system control, and network infrastructure (IoT, 5G, Starlink) with the development of predictive models, automation ecosystems, and API integrations. Passionate about leveraging data to solve complex problems, driving technological innovation in the public/private sectors, and scaling digital communities.
 
-## Work Experience
-**Teaching Assistant, organic materials laboratory in the interdisciplinary science laboratory (_Feb - Jun 2023_)**
+## 🛠️ Technical Skills & Interests
+- **Languages:** Python, C/C++, JavaScript, Kotlin, SQL, HTML.
+- **AI & Data Science:** Machine Learning (Neural Networks, Isolation Forest), NLP, Predictive Analysis (EDA), LLMs.
+- **Web & Cloud:** ReactJS, NodeJS, Google Apps Script, APIs, MongoDB, Firebase, MySQL.
+- **Tools & Hardware:** Git, GitHub, Linux, Raspberry Pi, Arduino, Open5GS, srsRAN.
+- **Soft Skills & Management:** Leadership, Agile methodologies (Kanban), Community Management, Problem-solving, Adaptability.
 
-- Warmer application update to android (Java-Kotlin), Front End.
-- CNC machine conditioning.
-- Design of topologies and applications for the oxidized carbon-based transistor.
+---
 
-**Product Manager CDIO 2 and CDIO 3 (_Sep 2022 - Dec 2023_)**
-- Management, administration, evaluation and control of activities with agile methodologies, supported by a Kanban board.
-- Violeta Project: Implementation of an alarm device in cases of gender violence.
-- Col-Equipments: Design of maintenance plan for laboratory equipment under RCM parameters.
-## Projects
-### CNC machine
-- Drawing images or circuits using Gerber language.
-- Design and construction of a CNC machine controlled from a Raspberry pi 3 with raspbian.
-- Design of an interface in python to control the movements of the machine.
-Technology used: Python, Wi?, Raspberry, ESP32, Inkscape.
+## 🚀 Work Experience & Insignia Projects
+
+**ICT Leader & Software Developer | Municipality of Rioblanco, Tolima** *(2025 - Present)*
+Leading the technological modernization of the municipality by transforming manual processes through automation and AI.
+- 🤖 **AI-Powered Technical Support Manager:** Designed a triage system that uses NLP to analyze support requests, automatically assigning priorities and scheduling them in Google Sheets via Apps Script, generating real-time user receipts.
+- 📈 **Network Predictive Analysis:** Conducted an Exploratory Data Analysis (EDA) of institutional bandwidth and developed a Neural Network to predict demand peaks and proactively optimize the network infrastructure.
+- 📄 **RioCertIA (Automated Certificate Generator):** Created software for the automatic generation of labor certificates. Overcame the limitations of Regex in unstructured documents by implementing API calls to precisely extract contractual obligations and dynamically assemble the final legal document.
+
+**Legal Representative | Electro Tech Integral** *(Nov 2024 - Present)*
+- Responsible for the legal representation of the consulting firm, managing contract execution, 3D modeling services, IoT solutions design, and high-availability network setups (Starlink).
+
+**Community Manager & Digital Strategist | Palabras Que Sanan PhD** *(Jul 2024 - Present)*
+- Comprehensive management of the brand and digital community, successfully scaling the audience to over **100,000 organic followers**.
+- Administration of Google Ads campaigns, applying CPA (Cost Per Acquisition) optimization models to maximize retention.
+
+**Project Manager | San Miguel Residential Development** *(Sep 2024 - Present)*
+- Led comprehensive project planning, resource management, and contract supervision to ensure efficient development and regulatory compliance.
 
 <details>
-  <summary>Project Infographic</summary>
-  <img src="assets/img/info.jpg" alt="Project Infographic">
+  <summary><b>💼 View More Experience (Click to expand)</b></summary>
+  
+  * **Technology and Digital Security Coordinator | Sole Notary, Rioblanco** *(Jun 2024 - Present):* Comprehensive management of technological systems and consulting on strategic IT decisions.
+  * **Drone Operator & Construction Supervisor | Geriatric Home** *(Dec 2023 - Present):* Land mapping, project monitoring, and coordination of subcontractors.
+  * **Amazon Kindle Editor** *(May 2023 - Present):* Design, formatting, and structural optimization of published materials.
+  * **Product Manager CDIO 2 & 3** *(Sep 2022 - Dec 2023):* Managed the "Violeta Project" (gender violence alarm device) and "Col-Equipments" (RCM maintenance plan) using Agile/Kanban.
+  * **Teaching Assistant** *(Feb - Jun 2023):* Android app updates (Java-Kotlin), CNC machine conditioning, and transistor topologies design.
 </details>
 
+---
+
+## 💻 Academic & Hardware Projects
 
 ### 5G SA Network with Open5gs and srsRAN
+- Implementation of a 5G network using srsRAN, ZMQ, and Open5GS. Evaluated performance, bandwidth, latency, and concurrent user capacity.
+- **Tech:** Linux, Python, IP Addressing. 
+- [🔗 Project Guide](https://github.com/JsCc-Electro/5G-SA-Network-Open5gs-srsRAN)
 
-- Implementation of a 5G network using srsRAN, ZMQ and Open5GS.
-- Evaluated performance, bandwidth, latency and capacity to handle concurrent users.
-- Scalability and flexibility analysis.
-Technology used: Linux, Python, IP Addressing, Open5gs and srsRAN.
+### CNC Machine
+- Design and construction of a CNC machine controlled from a Raspberry Pi 3. Built a Python interface to control machine movements for drawing circuits using Gerber language.
+- **Tech:** Python, Raspberry Pi, ESP32, Inkscape.
+- <details><summary>View Infographic</summary><img src="assets/img/info.jpg" alt="Project Infographic"></details>
 
-[Project Guide](https://github.com/JsCc-Electro/5G-SA-Network-Open5gs-srsRAN)
+### Temperature Control in Liquids
+- Monitoring and stabilization system using two Arduinos (data acquisition and PID control).
+- **Tech:** C, Arduino Uno, LabView, Digital Dimmer.
+- <details><summary>View Infographic</summary><img src="https://github.com/JsCc-Electro/Porfolio/blob/main/assets/img/Calentador_Info.jpg" alt="Project Infographic"></details>
 
-### Temperature control in liquids
-- Temperature control, monitoring and stabilization.
-- Implementation of two Arduinos, as data acquisition card and PID control respectively.
-Technology used: C, Arduino uno, LabView, Digital Dimmer.
+---
 
-<details>
-  <summary>Project Infographic</summary>
+## 🎓 Education & Certifications
 
-  ![Project Infographic](https://github.com/JsCc-Electro/Porfolio/blob/main/assets/img/Calentador_Info.jpg)
+- **Electronic Engineering** | *The University of Quindío* (Graduated Sep 2024).
+- **Introduction to Modern AI** | [cite_start]*Cisco Networking Academy* (Verified Credential, Feb 2026)[cite: 48, 65].
+- **Introduction to Data Science** | [cite_start]*Cisco Networking Academy* (Verified Credential, Feb 2026)[cite: 81, 89].
+- **Artificial Intelligence Bootcamp (Basic Level)** - 159 Hours | [cite_start]*MinTIC, U. de Antioquia & U. de Caldas* (Dec 2025)[cite: 6, 7, 8, 10].
+- **Diploma: AI Tools for the Public Sector** - 80 Hours | [cite_start]*MinTIC & Universidad de Cartagena* (Nov 2025)[cite: 72, 73].
 
-</details>
-
-
-## Positions of responsibility
-
-**Legal Representative, Electro Tech Integral (Nov 8 - Present)** 
-
-- Responsible for the legal representation of the company, managing contract execution, strategic decision-making, and ensuring regulatory compliance to support company growth and operations.
-
-
-**Project Manager, San Miguel Residential Development, Rioblanco Tolima (Sep 20 - Present)**
-
-- Led comprehensive project planning and resource management to ensure efficient, on-schedule development, overseeing contracts, budgets, and administrative decisions essential for successful lot sales and community establishment.
-
-- Developed and implemented targeted marketing campaigns to promote the development, coordinating with stakeholders to drive visibility and engagement among potential buyers.
-
-**Community Manager, Palabras que sanan Padre Andres (Jul 2024 - Present)**
-- Responsible for the comprehensive management of social networks, including content creation, event planning and execution, coordination of financial flows from social platforms to corporate accounts, and administration of advertising campaigns.
-
-**Technology and Digital Security Coordinator, Sole Notary, Rioblanco, Tolima (Jun 2024 - Present)**
-- Comprehensive management of technological systems, including installation and maintenance of equipment (printers, cameras, software), and consulting on strategic decisions.
-
-Amazon Kindle Editor (May 2023 - Present)
-- Designed and created attractive, professional book covers, enhancing the visibility and appeal of the final product.
-- Added essential missing content, ensuring the published material is complete and coherent.
-- Reorganized books by chapters and sections, optimizing the structure for a better reading experience.
-
-Geriatric Home Construction Supervisor, Rioblanco Tolima. (Dec 2023 - Feb 2024)
-- Coordinate the activities of workers, subcontractors and suppliers.
-- Keep detailed records of activities, progress reports, design changes.
-
-Drone Operator Geriatric Home - Rioblanco Tolima. (Dec 2023 - Present)
-- Construction inspection, land mapping, event recording and project monitoring.
-- Process images to obtain area measurements and detect possible anomalies.
-
-
+---
+📫 **Let's Connect:** [LinkedIn Profile] | 📧 joshua-cardenas@outlook.com
