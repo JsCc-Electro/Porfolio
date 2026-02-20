@@ -1,12 +1,7 @@
-#title: Joshua Cardenas
-#logo: /assets/img/head_shot_circle.jpg
-#description:   Electronic Engineer - +57 3112562317
-#show_downloads: true
+title: Joshua S. Cárdenas C. | Tech Lead & AI Engineer
+logo: /assets/img/head_shot_circle.jpg
+description: Electronics Engineer transitioning into advanced Software Engineering, Artificial Intelligence, and Data Science.
+show_downloads: false # Lo puse en false porque añadí un botón más bonito en el HTML arriba. Si quieres el default, ponlo en true.
 theme: jekyll-theme-minimal
-contacts:
-  - type: email
-    value: joshua-cardenas@outlook.com
-  - type: email
-    value: secar904@gmail.com
 github:
   is_project_page: false
