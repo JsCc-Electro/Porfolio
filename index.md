@@ -1,24 +1,34 @@
-## Data Engineer
-Electronics Engineer with experience in programming and data analysis, seeking to transition into the field of Data Science. Proficient in Python and analytical tools, with a background in multidisciplinary projects involving system control and performance evaluation. Passionate about using data to solve complex problems and drive innovation.
+## Tech Lead | Software & AI Engineer
+Electronics Engineer transitioning into advanced Software Engineering, Artificial Intelligence, and Data Science. I combine a strong background in hardware, system control, and network infrastructure with the development of predictive models, automation ecosystems, and API integrations. Passionate about leveraging data to solve complex problems, driving technological innovation in public and private sectors, and scaling digital communities.
 
 ## Technical skills and interests
-- Languages: C/C++, Python, Javascript-Kotlin, HTML,
-- Libraries: C++ STL, Python Libraries, ReactJs
-- Web Dev Tools: Nodejs, VScode, Git, Github
-- Frameworks: ReactJs
-- Cloud/Databases:MongoDb, Firebase, Relational Database(mySql)
-- Relevant Courses: Cybersecurity, AWS, PMI, Matlab, LATEX, RETIE.
-- Areas of interest: Web design, Video game design, Research and Development.
-- Soft Skills: Problem solving, Self-learning, Presentation, Adaptability, Creativity, Management of time, Leadership.
+- **Languages:** Python, C/C++, Javascript-Kotlin, HTML, SQL.
+- **AI & Data Science:** Machine Learning (Neural Networks, Isolation Forest), NLP, Predictive Analysis (EDA), LLMs.
+- **Libraries & Frameworks:** C++ STL, Python Libraries (Pandas, TensorFlow/Keras), ReactJs.
+- **Web Dev Tools & Cloud:** Nodejs, VScode, Git, Github, Google Apps Script, MongoDb, Firebase, Relational Database (mySql), AWS.
+- **Hardware & Networks:** Arduino, Raspberry Pi, IoT, 5G (Open5GS, srsRAN), Starlink.
+- **Relevant Courses:** Cybersecurity, PMI, Matlab, LATEX, RETIE.
+- **Areas of interest:** Artificial Intelligence, Automation, Web design, Video game design, Research and Development.
+- **Soft Skills:** Problem solving, Self-learning, Presentation, Adaptability, Creativity, Management of time, Leadership.
 
-## Education
-- Electronic Egineer | The University of Quindío (License No. EC206-179481)
+## Education & Certifications
+- Electronic Engineer | The University of Quindío (License No. EC206-179481)
 - Certificate in RETIE Standard | Medellín (Registered in Act Book No. 0020240611)
-- Certificate in University Teaching and Didactics | Medellín (Registered in Act Book No. 0020240823)						       		
+- Certificate in University Teaching and Didactics | Medellín (Registered in Act Book No. 0020240823)
+- [cite_start]Bootcamp: Inteligencia artificial Nivel Básico [cite: 7][cite_start], 159 hours [cite: 8] | [cite_start]MinTIC & IU Training (December 2025)[cite: 10].
+- [cite_start]Diploma: Fortalecimiento de Habilidades y Herramientas de Inteligencia Artificial para el Sector Público [cite: 72][cite_start], 80 hours [cite: 72] | [cite_start]MinTIC & Universidad de Cartagena (November 2025)[cite: 73].
+- Introduction to Modern AI | [cite_start]Cisco Networking Academy (Feb 16, 2026)[cite: 48, 65].
+- Introduction to Data Science | [cite_start]Cisco Networking Academy (Feb 03, 2026)[cite: 81, 89].
 
 ## Work Experience
-**Teaching Assistant, organic materials laboratory in the interdisciplinary science laboratory (_Feb - Jun 2023_)**
 
+**ICT Leader & Software Developer, Municipality of Rioblanco, Tolima (_2025 - Present_)**
+- Leading the technological modernization of the municipality, transforming manual processes through automation and Artificial Intelligence.
+- Developed an AI-Powered Technical Support Manager using NLP to analyze requests, assign priorities, and schedule them via Google Apps Script and Google Sheets API.
+- Conducted Exploratory Data Analysis (EDA) on institutional bandwidth and developed a Neural Network to predict demand peaks.
+- Created "RioCertIA", a software ecosystem utilizing APIs to dynamically extract contractual obligations and automate the generation of labor certificates.
+
+**Teaching Assistant, organic materials laboratory in the interdisciplinary science laboratory (_Feb - Jun 2023_)**
 - Warmer application update to android (Java-Kotlin), Front End.
 - CNC machine conditioning.
 - Design of topologies and applications for the oxidized carbon-based transistor.
@@ -29,6 +39,21 @@ Electronics Engineer with experience in programming and data analysis, seeking t
 - Col-Equipments: Design of maintenance plan for laboratory equipment under RCM parameters.
 
 ## Projects
+
+**AI-Powered Technical Support Manager**
+- Intelligent triage system that processes support requests using Artificial Intelligence (NLP) to evaluate criticality.
+- Automatically assigns priorities and integrates with Google Sheets API and Apps Script for automatic scheduling and real-time user receipts.
+- Technology used: Python, NLP, Google Apps Script, APIs.
+
+**RioCertIA (Automated Certificate Generator)**
+- Software ecosystem for the automated generation of labor certificates.
+- Overcame Regex limitations in unstructured documents (minutes) by implementing API-based extraction of contractual obligations.
+- Technology used: Python, APIs, Document Parsing.
+
+**Network Predictive Analysis (Deep Learning)**
+- Exhaustive Exploratory Data Analysis (EDA) of institutional bandwidth.
+- Training of a Neural Network to predict demand peaks and proactively optimize network infrastructure.
+- Technology used: Python, Machine Learning, Neural Networks, Data Science.
 
 **CNC machine**
 - Drawing images or circuits using Gerber language.
@@ -45,14 +70,11 @@ Electronics Engineer with experience in programming and data analysis, seeking t
   </div>
 </details>
 
-
 **5G SA Network with Open5gs and srsRAN**
-
 - Implementation of a 5G network using srsRAN, ZMQ and Open5GS.
 - Evaluated performance, bandwidth, latency and capacity to handle concurrent users.
 - Scalability and flexibility analysis.
 - Technology used: Linux, Python, IP Addressing, Open5gs and srsRAN.
-
 - [Project Guide](https://github.com/JsCc-Electro/5G-SA-Network-Open5gs-srsRAN)
 
 **Temperature control in liquids**
@@ -88,7 +110,6 @@ Electronics Engineer with experience in programming and data analysis, seeking t
     <li>Conducted construction inspection, land mapping, event recording, and project monitoring.</li>
     <li>Processed images to obtain area measurements and detect possible anomalies.</li>
   </ul>
-  <!-- Contenedor para las imágenes -->
   <div class="drone-images-container">
     <div class="drone-image-column">
       <img src="assets/img/DJI_0434.JPG" alt="Imagen de drone 1">
@@ -111,16 +132,17 @@ Electronics Engineer with experience in programming and data analysis, seeking t
 </details>
 
 <details>
-  <summary>Legal Representative, Electro Tech Integral (November 8 - Present)</summary>
+  <summary>Legal Representative, Electro Tech Integral (November 2024 - Present)</summary>
   <ul>
     <li>Responsible for the legal representation of the company, managing contract execution, strategic decision-making, and ensuring regulatory compliance to support company growth and operations.</li>
   </ul>
 </details>
 
 <details>
-  <summary>Community Manager, Palabras que sanan Padre Andres (July 2024 - January 2025)</summary>
+  <summary>Community Manager & Digital Strategist, Palabras que sanan Padre Andres (July 2024 - Present)</summary>
   <ul>
-    <li>Responsible for the comprehensive management of social networks, including content creation, event planning and execution, coordination of financial flows from social platforms to corporate accounts, and administration of advertising campaigns.</li>
+    <li>Responsible for the comprehensive management of social networks and digital brand strategy, successfully scaling the audience to over <strong>100,000 organic followers</strong>.</li>
+    <li>Managed content creation, event planning, financial flows, and optimized Google Ads campaigns using Cost Per Acquisition (CPA) models.</li>
   </ul>
 </details>
 
@@ -147,6 +169,3 @@ Electronics Engineer with experience in programming and data analysis, seeking t
     <li>Reorganized books by chapters and sections, optimizing the structure for a better reading experience.</li>
   </ul>
 </details>
-
-
-
